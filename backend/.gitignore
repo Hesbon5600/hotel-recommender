@@ -1,11 +1,13 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*$py.class
 
 # C extensions
 *.so
-
+Makefile
 # Distribution / packaging
+.vscode/
 .Python
 env/
 build/
@@ -22,8 +24,10 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
-.env
-*.sqlite3
+.idea/
+*ipynb
+*rdb
+
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -43,7 +47,8 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
-*.cover
+*,cover
+.hypothesis/
 
 # Translations
 *.mo
@@ -51,6 +56,14 @@ coverage.xml
 
 # Django stuff:
 *.log
+local_settings.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
 
 # Sphinx documentation
 docs/_build/
@@ -58,35 +71,46 @@ docs/_build/
 # PyBuilder
 target/
 
-# DotEnv configuration
+# IPython Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# dotenv
 .env
 
-# Database
-*.db
-*.rdb
+# virtualenv
+venv/
+ENV/
 
-# Pycharm
-.idea
+# Spyder project settings
+.spyderproject
 
-# VS Code
-.vscode/
+# Rope project settings
+.ropeproject
 
-# Spyder
-.spyproject/
+# SQLite3
+db.sqlite3
 
-# Jupyter NB Checkpoints
-.ipynb_checkpoints/
+# vscode
+.vscode
 
-# exclude data from source control by default
-/data/
-
-# Mac OS-specific storage files
-.DS_Store
-
-# vim
-*.swp
-*.swo
-
-# Mypy cache
-.mypy_cache/
-__pycache__/
+ # vim temporary files
+.*.swp
+.*.swn
+.*.swo
+ # vim python config
+.ycm_extra_conf.py
+*.DS_Store
+.vscode/settings.json
+*.DS_Store
+.history/
+*.env*
+route_api_db/
+*.pem
+cloud-sql/
+ELK/

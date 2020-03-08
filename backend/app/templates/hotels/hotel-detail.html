@@ -1,0 +1,592 @@
+﻿{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+{% load humanize %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Mirrored from thememakker.com/templates/oreo/realestate/html/light/property-detail.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 02 Mar 2020 07:34:46 GMT -->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="RealEstate, Admin, Dashboard, template, UI kit, RealEstate Admin, Bootstrap 4x"
+    />
+    <meta name="author" content="Thememakker" />
+    <title>:: Oreo RealEstate :: Property Detail</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <!-- Favicon-->
+    <link
+      rel="stylesheet"
+      href="https://thememakker.com/templates/oreo/realestate/html/assets/plugins/bootstrap/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.2.1/css/ol.css"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.2.1/build/ol.js"></script>
+
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js"></script>
+    <link
+      href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="{% static 'assets/css/main.css' %}" />
+    <link rel="stylesheet" href="{% static 'assets/css/color_skins.css' %}" />
+  </head>
+  <body class="theme-purple">
+    <style>
+      .map {
+        height: 400px;
+        width: 100%;
+      }
+    </style>
+    <!-- Page Loader -->
+    <div class="page-loader-wrapper">
+      <div class="loader">
+        <div class="m-t-30">
+          <img
+            class="zmdi-hc-spin"
+            src="https://thememakker.com/templates/oreo/realestate/html/assets/images/logo.svg"
+            width="48"
+            height="48"
+            alt="Oreo"
+          />
+        </div>
+        <p>Please wait...</p>
+      </div>
+    </div>
+    <!-- Overlay For Sidebars -->
+    <div class="overlay"></div>
+
+    <!-- Top Bar -->
+    <nav class="navbar p-l-5 p-r-5">
+      <ul class="nav navbar-nav navbar-left">
+        <li>
+          <div class="navbar-header">
+            <a href="javascript:void(0);" class="bars"></a>
+            <a class="navbar-brand" href="{%url 'hotels:list-hotels'%}"
+              ><img
+                src="https://thememakker.com/templates/oreo/realestate/html/assets/images/logo.svg"
+                width="30"
+                alt="Oreo"
+              /><span class="m-l-10">Oreo</span></a
+            >
+          </div>
+        </li>
+        <li>
+          <a href="javascript:void(0);" class="ls-toggle-btn" data-close="true"
+            ><i class="zmdi zmdi-swap"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#" title="Contact List"
+            ><i class="zmdi zmdi-account-box-phone"></i
+          ></a>
+        </li>
+        <li class="float-right">
+          <a
+            href="{%url 'authentication:login'%}"
+            class="mega-menu"
+            data-close="true"
+            ><i class="zmdi zmdi-power"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+   <!-- Left Sidebar -->
+<aside id="leftsidebar" class="sidebar">
+  <ul class="nav nav-tabs">
+      <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#dashboard"><i class="zmdi zmdi-home m-r-5"></i>Oreo</a></li>
+      <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#user"><i class="zmdi zmdi-account m-r-5"></i>User</a></li>
+  </ul>
+  <div class="tab-content">
+      <div class="tab-pane stretchRight active" id="dashboard">
+          <div class="menu">
+              <ul class="list">
+                  <li>
+                      <div class="user-info">
+                          <div class="image"><a href="#"><img src="https://res.cloudinary.com/dsw3onksq/image/upload/v1572770462/Screenshot_2019-11-03_at_08.46.55_c9lqgw.png" alt="User"></a></div>
+                          <div class="detail">
+                              <h4>Hesbon</h4>
+                              <small>User</small>
+                          </div>
+                          <a title="facebook" href="javascript:void(0);"><i class="zmdi zmdi-facebook"></i></a>
+                          <a title="twitter" href="javascript:void(0);"><i class="zmdi zmdi-twitter"></i></a>
+                          <a title="instagram" href="javascript:void(0);"><i class="zmdi zmdi-instagram"></i></a>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <div class="tab-pane stretchLeft" id="user">
+          <div class="menu">
+              <ul class="list">
+                  <li>
+                      <div class="user-info m-b-20 p-b-15">
+                          <div class="image"><a href="profile.html"><img src="https://res.cloudinary.com/dsw3onksq/image/upload/v1572770462/Screenshot_2019-11-03_at_08.46.55_c9lqgw.png" alt="User"></a></div>
+                          <div class="detail">
+                              <h4>Hesbon</h4>
+                              <small>User</small>
+                          </div>
+                          <a title="facebook" href="javascript:void(0);"><i class="zmdi zmdi-facebook"></i></a>
+                          <a title="twitter" href="javascript:void(0);"><i class="zmdi zmdi-twitter"></i></a>
+                          <a title="instagram" href="javascript:void(0);"><i class="zmdi zmdi-instagram"></i></a>
+                          <p class="text-muted">77, Home Street</p>
+                          <div class="row">
+                              <div class="col-4">
+                                  <h6 class="mb-1">8</h6>
+                                  <small>Reviews</small>
+                              </div>
+                              <div class="col-4">
+                                  <h6 class="mb-1">7</h6>
+                                  <small>Likes</small>
+                              </div>
+                              <div class="col-4">
+                                  <h6 class="mb-1">13</h6>
+                                  <small>Bookings</small>
+                              </div>
+                          </div>
+                      </div>
+                  </li>
+                  <li>
+                      <small class="text-muted">Email address: </small>
+                      <p>Hesbon@gmail.com</p>
+                      <hr>
+                      <small class="text-muted">Phone: </small>
+                      <p>+ 254 727 737 299</p>
+                      <hr>
+                      <ul class="list-unstyled">
+                          <li>
+                              <div>Honesty & Integrity</div>
+                              <div class="progress m-b-20">
+                                  <div class="progress-bar l-blue " role="progressbar" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100" style="width: 89%"> <span class="sr-only">62% Complete</span> </div>
+                              </div>
+                          </li>
+                          <li>
+                              <div>Responsiveness</div>
+                              <div class="progress m-b-20">
+                                  <div class="progress-bar l-green " role="progressbar" aria-valuenow="56" aria-valuemin="0" aria-valuemax="100" style="width: 56%"> <span class="sr-only">87% Complete</span> </div>
+                              </div>
+                          </li>
+                          <li>
+                              <div>Local Knowledge</div>
+                              <div class="progress m-b-20">
+                                  <div class="progress-bar l-amber" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width: 78%"> <span class="sr-only">32% Complete</span> </div>
+                              </div>
+                          </li>
+                      </ul>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</aside>
+
+    <!-- Chat-launcher -->
+    <div class="chat-launcher"></div>
+    <div class="chat-wrapper">
+      <div class="card">
+        <div class="header">
+          <ul class="list-unstyled team-info margin-0">
+            <li class="m-r-15"><h2>User Team</h2></li>
+            <li>
+              <img
+                src="https://thememakker.com/templates/oreo/realestate/html/assets/images/xs/avatar2.jpg"
+                alt="Avatar"
+              />
+            </li>
+            <li>
+              <img
+                src="https://thememakker.com/templates/oreo/realestate/html/assets/images/xs/avatar3.jpg"
+                alt="Avatar"
+              />
+            </li>
+            <li>
+              <img
+                src="https://thememakker.com/templates/oreo/realestate/html/assets/images/xs/avatar4.jpg"
+                alt="Avatar"
+              />
+            </li>
+            <li>
+              <img
+                src="https://thememakker.com/templates/oreo/realestate/html/assets/images/xs/avatar6.jpg"
+                alt="Avatar"
+              />
+            </li>
+            <li>
+              <a href="javascript:void(0);" title="Add Member"
+                ><i class="zmdi zmdi-plus-circle"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="body">
+          <div class="chat-widget">
+            <ul class="chat-scroll-list clearfix">
+              <li class="left float-left">
+                <img
+                  src="https://thememakker.com/templates/oreo/realestate/html/assets/images/xs/avatar3.jpg"
+                  class="rounded-circle"
+                  alt=""
+                />
+                <div class="chat-info">
+                  <a class="name" href="javascript:void(0);">Alexander</a>
+                  <span class="datetime">6:12</span>
+                  <span class="message">Hello, John </span>
+                </div>
+              </li>
+              <li class="right">
+                <div class="chat-info">
+                  <span class="datetime">6:15</span>
+                  <span class="message"
+                    >Hi, Alexander<br />
+                    How are you!</span
+                  >
+                </div>
+              </li>
+              <li class="right">
+                <div class="chat-info">
+                  <span class="datetime">6:16</span>
+                  <span class="message"
+                    >There are many variations of passages of Lorem Ipsum
+                    available</span
+                  >
+                </div>
+              </li>
+              <li class="left float-left">
+                <img
+                  src="https://thememakker.com/templates/oreo/realestate/html/assets/images/xs/avatar2.jpg"
+                  class="rounded-circle"
+                  alt=""
+                />
+                <div class="chat-info">
+                  <a class="name" href="javascript:void(0);">Elizabeth</a>
+                  <span class="datetime">6:25</span>
+                  <span class="message"
+                    >Hi, Alexander,<br />
+                    John <br />
+                    What are you doing?</span
+                  >
+                </div>
+              </li>
+              <li class="left float-left">
+                <img
+                  src="https://thememakker.com/templates/oreo/realestate/html/assets/images/xs/avatar1.jpg"
+                  class="rounded-circle"
+                  alt=""
+                />
+                <div class="chat-info">
+                  <a class="name" href="javascript:void(0);">Hesbon</a>
+                  <span class="datetime">6:28</span>
+                  <span class="message">I would love to join the team.</span>
+                </div>
+              </li>
+              <li class="right">
+                <div class="chat-info">
+                  <span class="datetime">7:02</span>
+                  <span class="message">Hello, <br />Hesbon</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="input-group p-t-15">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter text here..."
+            />
+            <span class="input-group-addon">
+              <i class="zmdi zmdi-mail-send"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <section class="content">
+      <div class="block-header">
+        <div class="row">
+          <div class="col-lg-5 col-md-5 col-sm-12">
+            <h2>
+              Hotel Detail
+              <small>Welcome to Oreo</small>
+            </h2>
+          </div>
+          <div class="col-lg-7 col-md-7 col-sm-12 text-md-right">
+            <div class="inlineblock text-center m-r-15 m-l-15 hidden-md-down">
+              <div
+                class="sparkline"
+                data-type="bar"
+                data-width="97%"
+                data-height="25px"
+                data-bar-Width="2"
+                data-bar-Spacing="5"
+                data-bar-Color="#fff"
+              >
+                3,2,6,5,9,8,7,9,5,1,3,5,7,4,6
+              </div>
+              <small class="col-white">Visitors</small>
+            </div>
+            <div class="inlineblock text-center m-r-15 m-l-15 hidden-md-down">
+              <div
+                class="sparkline"
+                data-type="bar"
+                data-width="97%"
+                data-height="25px"
+                data-bar-Width="2"
+                data-bar-Spacing="5"
+                data-bar-Color="#fff"
+              >
+                1,3,5,7,4,6,3,2,6,5,9,8,7,9,5
+              </div>
+              <small class="col-white">Bounce Rate</small>
+            </div>
+            <ul class="breadcrumb float-md-right">
+              <li class="breadcrumb-item">
+                <a href="{%url 'hotels:list-hotels'%}"
+                  ><i class="zmdi zmdi-home"></i> Oreo</a
+                >
+              </li>
+              <li class="breadcrumb-item active">Hotel</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row clearfix">
+          <div class="col-md-12">
+            <div class="card">
+              <div class="body">
+                <div id="demo2" class="carousel slide" data-ride="carousel">
+                  <ul class="carousel-indicators">
+                    <li
+                      data-target="#demo2"
+                      data-slide-to="0"
+                      class="active"
+                    ></li>
+                  </ul>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="{{hotel.thumbnail_url}}"
+                        class="img-fluid w-100"
+                        alt=""
+                      />
+                      <div class="carousel-caption">
+                        <h3>{{hotel.address.locality}}</h3>
+                        <p>Thank you, {{hotel.address.locality}}!</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Left and right controls -->
+                  <a
+                    class="carousel-control-prev"
+                    href="#demo2"
+                    data-slide="prev"
+                    ><span class="carousel-control-prev-icon"></span
+                  ></a>
+                  <a
+                    class="carousel-control-next"
+                    href="#demo2"
+                    data-slide="next"
+                    ><span class="carousel-control-next-icon"></span
+                  ></a>
+                </div>
+
+                <p class="text-success mt-3">
+                  Avg Price:
+                  <strong class="col-blue-grey"
+                    >Ksh {{hotel.price | intcomma}}
+                  </strong>
+                </p>
+                <h5 class="mt-0">
+                  <a href="#" class="col-blue-grey">{{hotel.name}}</a>
+                </h5>
+                <p class="text-muted">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                  The point of using Lorem Ipsum is that it has a more-or-less
+                  normal distribution of letters, as opposed to using 'Content
+                  here, content here', making it look like readable English.
+                  Many desktop publishing packages and web page editors now use
+                  Lorem Ipsum as their default model text, and a search for
+                  'lorem ipsum' will uncover many web sites still in their
+                  infancy.
+                </p>
+                <small class="text-muted"
+                  ><i class="zmdi zmdi-pin mr-2"></i
+                  >{{hotel.address.street_address}},
+                  {%if hotel.extended_address %}
+                  {{hotel.extended_address}},
+                  {% endif %}
+                  {{hotel.address.locality}}</small
+                >
+                <div>
+                  <a href='https://www.google.com/search?q={{hotel.name}}' target="_blank" class="w100" title="Garages"
+                    ><span> <button class="btn btn-primary mb-2">Go to Hotel</button></span></a
+                  >
+                </div>
+                <div
+                  class="d-flex flex-wrap justify-content-start mt-3 p-3 bg-light"
+                >
+
+                <a href="#" title="Square Feet" onclick="return false;" class="mr-4">
+                  {% with ''|center:hotel.star_rating as star_range %}
+                  {% for i in star_range%}<i class="zmdi zmdi-star mr-1"></i>{%endfor%}{%endwith%}</a>
+                  <a href="#" class="w100" title="Bedroom"
+                    ><i class="zmdi zmdi-hotel mx-2"></i><span>{{hotel.total_reviews}}</span></a
+                  >
+                  <a href="#" class="w100" title="Parking space"
+                    ><i class="zmdi zmdi-car-taxi mr-2"></i><span>2</span></a
+                  >
+                  <a href="#" class="w100" title="Garages"
+                    ><i class="zmdi zmdi-home mr-2"></i><span> 24H</span></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="header">
+                <h2>
+                  <strong>General</strong> Amenities<small
+                    >Description Text Here...</small
+                  >
+                </h2>
+                <ul class="header-dropdown">
+                  <li class="dropdown">
+                    <a
+                      href="javascript:void(0);"
+                      class="dropdown-toggle"
+                      data-toggle="dropdown"
+                      role="button"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <i class="zmdi zmdi-more"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-right slideUp">
+                      <li><a href="javascript:void(0);">Action</a></li>
+                      <li><a href="javascript:void(0);">Another action</a></li>
+                      <li><a href="javascript:void(0);">Something else</a></li>
+                    </ul>
+                  </li>
+                  <li class="remove">
+                    <a role="button" class="boxs-close"
+                      ><i class="zmdi zmdi-close"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="body">
+                <div class="row clearfix">
+                  <div class="col-sm-4">
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <i class="zmdi zmdi-check-circle mr-2"></i>Swimming pool
+                      </li>
+                      <li class="list-group-item">
+                        <i class="zmdi zmdi-check-circle mr-2"></i>Air
+                        conditioning
+                      </li>
+                      <li class="list-group-item">
+                        <i class="zmdi zmdi-check-circle mr-2"></i>Internet
+                      </li>
+                      <li class="list-group-item">
+                        <i class="zmdi zmdi-check-circle mr-2"></i>Radio
+                      </li>
+
+                    </ul>
+                  </div>
+                  <div class="col-sm-4">
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <i class="zmdi zmdi-check-circle mr-2"></i>Terrace
+                      </li>
+                      <li class="list-group-item">
+                        <i class="zmdi zmdi-check-circle mr-2"></i>Cofee pot
+                      </li>
+                      <li class="list-group-item">
+                        <i class="zmdi zmdi-check-circle mr-2"></i>Oven
+                      </li>
+                      <li class="list-group-item">
+                        <i class="zmdi zmdi-check-circle mr-2"></i>Electricity
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-4">
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <i class="zmdi zmdi-check-circle mr-2"></i>Dishwasher
+                      </li>
+                      <li class="list-group-item">
+                        <i class="zmdi zmdi-check-circle mr-2"></i>Near Green
+                        Zone
+                      </li>
+                      <li class="list-group-item">
+                        <i class="zmdi zmdi-check-circle mr-2"></i>Near Church
+                      </li>
+                      <li class="list-group-item">
+                        <i class="zmdi zmdi-check-circle mr-2"></i>Near Hospital
+                      </li>
+
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="header">
+                <h2>
+                  <strong>Location of {{hotel.name}}</strong>
+                  <small>{{hotel.address.street_address}},
+                    {%if hotel.extended_address %}
+                    {{hotel.extended_address}},
+                    {% endif %}
+                    {{hotel.address.locality}}</small>
+                </h2>
+              </div>
+              <div class="body">
+                <div id="map" class="map"></div>
+                <script>
+                  mapboxgl.accessToken =
+                    "pk.eyJ1IjoiaGVzYm9uIiwiYSI6ImNrN2RoeHV1ejAwYmszZW8xcG0yMjloaG0ifQ.VbRYu68foFK5W-yJ_KuX3w";
+                  var map = new mapboxgl.Map({
+                    container: "map",
+                    style: "mapbox://styles/mapbox/streets-v11",
+                    center: ["{{hotel.longitude}}", "{{hotel.latitude}}"],
+                    zoom: 15
+                  });
+                  var marker = new mapboxgl.Marker()
+                    .setLngLat(["{{hotel.longitude}}", "{{hotel.latitude}}"])
+                    .addTo(map);
+                </script><!-- <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=svdezAlqZP2WIeKGiLW4EUnoJvnxVP7i&amp;width=100%&amp;height=400&amp;lang=tr_TR&amp;sourceType=constructor&amp;scroll=true"></script> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Jquery Core Js -->
+    <script src="{% static 'assets/bundles/libscripts.bundle.js' %}"></script>
+    <script src="{% static 'assets/bundles/vendorscripts.bundle.js' %}"></script>
+
+    <script src="{% static 'assets/bundles/mainscripts.bundle.js' %}"></script>
+
+
+  </body>
+
+  <!-- Mirrored from thememakker.com/templates/oreo/realestate/html/light/property-detail.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 02 Mar 2020 07:34:46 GMT -->
+</html>
+{% endblock %}
