@@ -1,0 +1,573 @@
+,name,neighbourhood,starRating,total_reviews,price
+0,Jamhuri Homes,Nairobi,2.5,4,1214
+1,Adventure Homestay Nairobi ,Syokimau,3.0,0,1315
+2,Eridel Comfort Stays,Syokimau,3.0,3,1315
+3,Jamhuri Home 2,Nairobi,2.5,0,1416
+4,Riverbank Hostel,Nairobi,2.5,1,1416
+5,Cosy Stay,Nairobi,2.5,0,1416
+6,Joy Comfort Homestay,Syokimau,3.5,1,1517
+7,Jambo Homestay,Syokimau,3.0,2,1720
+8,Red Buffalo House Hotel ,Nairobi,3.0,2,1720
+9,Safari Homestay,Syokimau,2.5,2,1720
+10,Lux Airport Inn,Syokimau,3.0,5,1720
+11,DESAI VILLA,Ngara,2.0,0,1720
+12,Affordable furnished studio apartment,Central Business District,2.5,0,1821
+13,CORNA VIEW PALACE,Nairobi,3.0,0,1821
+14,Eagle apartment,Central Business District,3.0,7,1821
+15,5 Mins to Nairobi Int Airport,Nairobi,1.5,0,1821
+16,Galvin Safaris,Syokimau,3.0,0,1922
+17,Royal Homes-JKIA,Central Business District,3.0,6,1922
+18,JKIA Tours and Homes,Syokimau,3.0,0,1922
+19,254 Airport Inn,Syokimau,3.0,1,1922
+20,Hotel Nomad,Kitengela,2.5,0,1922
+21,Sleep Inn hotel,Ngara West,2.5,0,1922
+22,Hotel Jaffers Nairobi,Central Business District,2.5,1,1922
+23,Royal Pine Cottages,Ruiru,2.5,0,1922
+24,JKIA Airport side apartment,Syokimau,3.0,4,1922
+25,Nairobi Airport Suites,Syokimau,3.0,0,2023
+26,Hotel Embassy,Central Business District,2.5,8,2023
+27,Zarita Boutique Hotel,Syokimau,3.5,1,2023
+28,Leopard Village,Nairobi,3.5,0,2023
+29,Maria's House,Central Business District,3.0,0,2023
+30,Pine Breeze Getaway Lukenya,Athi River,3.0,0,2023
+31,The Serene Apartment,Nairobi,2.5,6,2124
+32,Olive or Twist Lounge,Ongata Rongai,3.0,0,2124
+33,Seldom Hotel,Ngara,2.5,0,2124
+34,Ishi Apartment,Syokimau,3.0,0,2124
+35,INKS HOTEL ,Central Business District,3.0,0,2124
+36,King's Suites,Ngara West,3.0,0,2124
+37,Nairobi Kitale Hotel,Central Business District,2.5,4,2124
+38,Takdiri Home,Nairobi,3.0,0,2124
+39,Sir James Hotel,Nairobi,3.0,1,2124
+40,Henny Airport Homestay,Syokimau,3.0,0,2225
+41,Nairobi Transit Lounge,Syokimau,3.0,26,2225
+42,Lomu Homes Kilimani,Kilimani,2.5,1,2225
+43,The Fontage Hotel,Mlolongo,3.0,1,2326
+44,Lewisky homestays and tours,Syokimau,3.5,6,2326
+45,Lower Kabete Heights,Nairobi,3.0,2,2326
+46,Msafiri Residence Inn,Kilimani,3.0,11,2326
+47,Sagwe Furnished Apartments,Nairobi,3.0,0,2326
+48,Muthama Heights,Syokimau,2.5,0,2428
+49,Cafri Homestay,Syokimau,3.0,0,2428
+50,Mariguini Guest House,Kasarani,2.5,0,2428
+51,Nyam Hotel,Central Business District,3.0,2,2428
+52,Mooreland Hotel Nairobi,Ngara West,3.0,1,2428
+53,Haridge Inn,Central Business District,3.0,0,2529
+54,Maureen's Hotel,Nairobi,3.5,0,2529
+55,East Keys Hotel,Ruiru,3.0,0,2529
+56,Annies House,Mlolongo,2.5,0,2529
+57,Rabi Hotel,Ngara West,3.0,1,2529
+58,Fourways Junction Villa 1,Nairobi,2.5,0,2529
+59,The Plateau Breeze Hotel,Ruiru,3.0,0,2529
+60,Koyaro Centre,Nairobi,3.0,0,2529
+61,Queens Hotel,Kikuyu,2.5,0,2529
+62,Caju Homestay,Nairobi,3.0,1,2529
+63,Ngara Riverside Hotel,Ngara,2.5,0,2529
+64,Rosewood Guest House,Nairobi,2.5,0,2529
+65,Sagret Equatorial Hotel Nairobi,Kilimani,3.0,0,2529
+66,New Swanga Guest House,Central Business District,0.0,1,2529
+67,Jill's Nest,Nairobi,2.5,0,2529
+68,Midview Hotel Nairobi,Central Business District,3.0,4,2529
+69,Aden Bay City Hotel,Central Business District,3.0,8,2529
+70,Nairobi Upperhill Hotel,Nairobi,3.5,18,2630
+71,Toll View Apartments,Nairobi,2.5,0,2630
+72,Bermuda Garden Hotel,Ngara West,3.0,5,2630
+73,Serene Home,Runda,2.5,0,2630
+74,Bethel Homestay,Syokimau,3.0,1,2731
+75,Hotel Anthena,Mlolongo,2.5,0,2731
+76,New Accra Hotel,Central Business District,2.5,2,2731
+77,Thomson Court,Kilimani,3.5,1,2731
+78,The Headquarters Inn,Nairobi,3.5,1,2731
+79,Parklands Villa Hotel.,Nairobi,3.0,0,2832
+80,Celestial Luxury Homestay,Syokimau,3.5,3,2832
+81,Ismarriot Hotel and Resort,Nairobi,3.5,0,2832
+82,Hotel Barkley,Central Business District,2.5,1,2832
+83,Continental Inn,Mlolongo,2.0,2,2832
+84,Memo's Homestay,Mlolongo,3.0,0,2832
+85,JKIA Transit Apex Furnished Apartments,Nairobi,3.0,4,2832
+86,Sunrise Hotel,Central Business District,3.5,1,2933
+87,Safari Homes and Tours,Syokimau,3.5,1,2933
+88,Kahama Hotel,Ngara West,3.0,64,2933
+89,Faithica Jkia,Syokimau,3.5,0,2933
+90,Savelberg Retreat Centre,Kilimani,2.5,0,3034
+91,Bethel Xperience Homestay,Nairobi,3.0,12,3034
+92,Alma Hotel,Kitengela,2.5,0,3034
+93,Johiz Casa JKIA,Syokimau,3.5,2,3034
+94,Plus 254 Hotel,Nairobi,3.0,1,3034
+95,Nairobi Airport Homestay,Syokimau,3.0,31,3034
+96,Sirona Hotel,Ngara West,2.0,10,3034
+97,Hawie Classic Homestay,Syokimau,3.0,0,3034
+98,Ridgeways Park Hotel,Nairobi,3.0,0,3034
+99,Valbras Homestay Nairobi,Syokimau,3.0,0,3136
+0,Easy Jkia Homestay,Syokimau,3.0,1,3136
+1,The Reeds Hotel,Ongata Rongai,3.0,0,3136
+2,Reed Hotel Annex,Ongata Rongai,2.5,0,3136
+3,Golden Goose Hotel,Central Business District,3.0,1,3136
+4,Heela Hotel,Nairobi,3.5,0,3136
+5,Khweza Bed & Breakfast,Ngara,2.0,29,3136
+6,Villa Rock Stop Falls  B & B,Runda,3.0,0,3136
+7,Space International,Central Business District,3.5,2,3237
+8,Rosslyn Studios,Nairobi,3.0,3,3237
+10,Pwani Guest House,Central Business District,3.0,0,3237
+11,Mouni Residences,"Lavington, Nairobi",4.0,2,3237
+12,Nairobi Glory Palace Hotel Ltd,Ngara,3.0,1,3338
+13,Upperhill Blueberry Hotel,Nairobi,2.5,1,3338
+14,Sundowner Studio,Nairobi,3.5,1,3338
+15,Maurica Studio,Nairobi,2.5,1,3338
+16,Inter Leisure Hotel,Athi River,3.0,0,3439
+17,Kagan Homestay,Mlolongo,3.0,0,3439
+18,The Smith Hotel,Ongata Rongai,3.0,5,3439
+19,Boushel Place,Nairobi,3.5,0,3439
+20,Plainsville Apartments,Nairobi,3.5,0,3439
+21,Diamond Guest House,Central Business District,3.0,0,3439
+22,Bongo Restaurant & Hotel,Nairobi,2.5,0,3439
+23,Eron Hotel,Central Business District,3.0,9,3439
+24,Sunway Hotel Nairobi - YOHOH,Central Business District,3.5,0,3439
+25,Desmond Tutu Guest House,Nairobi,3.0,5,3439
+26,61 Residence,Syokimau,3.5,1,3439
+27,Levilla Gardens Resort & Spa,Kikuyu,2.5,1,3439
+28,Tawa Furnished Apartment,Kilimani,3.0,1,3439
+29,Private Home 4 bedrooms 4.5 bathrooms,Athi River,2.5,0,3439
+30,Capital Heights Hotel,Nairobi,3.5,7,3439
+31,Airport Area Villa Home,Syokimau,3.0,0,3439
+32,Palm Nest - Near JKIA,Syokimau,2.5,0,3439
+33,Kindey's Cottage,Syokimau,3.0,0,3439
+34,Mayberry Airport homestay,Syokimau,3.0,2,3439
+35,Apple Residdence,Syokimau,3.5,2,3439
+36,East Gate Hotel,Kitengela,3.0,0,3439
+38,Balis Best Bar and Resort,Nairobi,2.5,1,3540
+39,Syo Place,Nairobi,3.5,0,3540
+40,Golden City Gardens,Syokimau,3.5,0,3540
+41,Tollview Classic Hotel,Ruiru,3.5,0,3641
+42,Studio 254,Ngara West,2.5,1,3641
+43,The Siron Place Hotel,Ongata Rongai,3.0,0,3641
+44,Katani Resort,Syokimau,3.0,0,3641
+45,New Trafford Serviced Apartments,Kilimani,3.5,0,3641
+46,Impala Hotel,Nairobi,3.0,1,3641
+47,Kenya Comfort Hotel,Central Business District,1.5,29,3743
+48,Scenic View Hotel & Resort,Central Business District,3.0,0,3743
+49,Kiloran House,Kilimani,2.5,4,3743
+50,Parklands Shade Hotel,Nairobi,3.5,11,3743
+51,Avocado Bed & Breakfast and Cottages,Nairobi,2.5,0,3743
+52,Kings Premier Inn,Mlolongo,3.5,0,3743
+53,Titus Home Stay Nairobi,Nairobi,3.0,3,3743
+54,D2W Residency Suites,Syokimau,3.0,1,3743
+55,Tommy's Lounge,Syokimau,3.0,2,3743
+56,Rainbow Ruiru Resort,Ruiru,3.0,8,3743
+57,Milestone City Hotel,Central Business District,2.5,1,3743
+58,Celestial Apartment,Syokimau,3.5,1,3844
+59,The Pine Lush,Nairobi,2.5,0,3844
+60,Mersha Homes,Nairobi,3.5,0,3844
+61,Diamond Plaza Apartments,Nairobi,3.0,9,3844
+62,Miella Casa Furnished Apartment,Syokimau,3.0,0,3844
+63,Furnished Apartment,Nairobi,2.5,0,3844
+64,West Park,Nairobi,2.5,0,3844
+65,BIENVENUE DELTA HOTEL,Central Business District,2.5,6,3844
+66,Kattaa's quiet and cozy home near JKIA,Nairobi,3.0,0,3844
+67,Javilla Eagles Safari Guest House,Central Business District,3.5,0,3844
+68,Maple Inn,Ruiru,3.5,0,3844
+69,Passionist Retreat Center,Nairobi,2.5,0,3844
+70,Decasa Hotel,Central Business District,3.0,18,3844
+71,Delfirm Hotel,Central Business District,3.5,6,3844
+72,Jupiter Guest Resort Langata,Nairobi,2.0,0,3844
+73,Melili Hotel,Nairobi,3.5,7,3844
+74,Pearl Palace Hotel,Ngara West,2.5,2,3844
+75,Sherry Homes Qwetu Studio,Nairobi,3.5,0,3844
+76,Harlequin Suites Hotel,Nairobi,3.0,1,3945
+77,MAYA'S Residence,Mlolongo,3.0,0,3945
+78,Kolping Guest House,Kilimani,3.5,1,4046
+79,Edmor Residences - Riverside,Nairobi,3.0,7,4046
+80,Sandton City Hotel,Central Business District,3.5,3,4046
+81,Covenant Guest House,Nairobi,2.5,1,4046
+82,Finch & Sons,Athi River,3.0,0,4046
+83,Grand Homestay,Syokimau,3.5,0,4147
+84,Wida Highway Motel,Kikuyu,3.0,0,4147
+85,Edmor Residences - Riverside 2D,Nairobi,3.5,0,4147
+86,Hotel Troy Nairobi,Nairobi,3.0,39,4147
+87,Corat Africa Hotel,Nairobi,3.0,0,4248
+88,Lilys Homestay,Syokimau,3.5,0,4248
+89,HOTEL METRO,Central Business District,3.5,1,4248
+90,Private Room,Kilimani,2.5,1,4248
+91,Nairobi Transit Hotel,Ngara West,3.5,4,4248
+92,Restead Stay Apartments,Kilimani,3.5,0,4248
+93,Maggys Airport Guest House - Hostel,Kitengela,2.0,0,4248
+94,Blueman Smile Suites - JKIA,Syokimau,3.0,7,4248
+95,Kolping Conference Centre,Nairobi,2.5,0,4248
+96,Wysline Guest House,Nairobi,3.0,0,4248
+97,MJ Homestay by Balozi Nairobi,Nairobi,2.5,0,4248
+98,Eclat Fusion Apartments,Nairobi,3.5,0,4248
+99,Sir Kanja's Hotel,Central Business District,2.5,0,4248
+0,Mararo Court,Kilimani,3.0,1,4248
+1,Palm Airport Suites,Syokimau,2.5,4,4248
+2,Sherry Homes Zuri Studio,Nairobi,3.5,0,4248
+3,JKIA AIRPORT HOTEL,Nairobi,2.5,2,4248
+4,Hotel Kipepeo,Central Business District,3.0,6,4248
+5,Airport Gate View Hotel,Nairobi,2.0,3,4349
+6,Nezzo Cozy Apartments,Ongata Rongai,3.0,0,4349
+8,Stardom Hotel,Kasarani,3.0,2,4349
+9,Heritage Plaza Accommodation,Nairobi,3.5,0,4451
+10,Urban Point Hotel,Nairobi,3.5,7,4451
+11,YWCA Parkview Suites Nairobi,Nairobi,2.5,1,4451
+12,Gray's Oak Hotel,Kitengela,3.0,1,4552
+13,67 Athi Hotel,Athi River,3.5,4,4552
+14,CHAK Guest House & Conference Centre,Nairobi,3.0,3,4653
+15,Blossom Apartment,Nairobi,3.5,1,4653
+16,Jupiter Guest House - Parklands,Nairobi,2.0,0,4653
+17,Bella Shared Apartment,Kilimani,3.5,0,4653
+18,Lagos Hotel,Central Business District,4.0,21,4653
+19,Enkare Hotel,Central Business District,3.5,1,4653
+20,Cloud Hotel & Suites,Nairobi,4.0,33,4653
+21,Anchor Hotel,Kasarani,3.0,0,4653
+22,Swiss Lenana Mount Hotel,Kilimani,4.0,132,4653
+23,Gramo Suites,Nairobi,3.5,9,4754
+24,Marble Arch Hotel,Central Business District,3.0,19,4754
+25,Sherry Homes Safari,Nairobi,3.5,0,4754
+26,Olive Gardens Hotel,Kilimani,3.0,2,4754
+27,Fourth Parklands Guest House & Conference,Nairobi,3.0,0,4754
+28,Kijani Apartment,Nairobi,3.5,0,4754
+29,Clean & Cosy,Nairobi,3.5,0,4754
+30,Adventist LMS Guest House & Conference Centre,Kilimani,3.5,6,4754
+31,Karen Camp Hotel,Nairobi,3.0,1,4754
+32,Afralti Guest House,Nairobi,2.5,0,4754
+33,Sherry Homes Tulia Studios,Nairobi,3.5,1,4754
+34,soluxe club nairobi,Nairobi,3.5,0,4754
+35,Emilia Hotel Apartments,Nairobi,3.5,0,4754
+36,Sandalwood Hotels and Resorts,Kitengela,0.0,0,4754
+37,Woodmere Serviced Apartments,Kilimani,4.0,29,4754
+38,Hadassah Hotel,Nairobi,3.0,5,4754
+39,Kepro Farm,Ongata Rongai,3.0,0,4754
+40,Qaribu Inn,Nairobi,3.0,12,4855
+41,Impala Guest House,Ongata Rongai,3.0,0,4855
+42,Appleton Resort,Nairobi,3.0,3,4855
+43,Karen little paradise,Nairobi,3.0,8,4956
+44,Oloiboni Hotel,Nairobi,3.0,2,5058
+45,Jambostay,Syokimau,3.5,1,5058
+46,Airport Landing Hotel,Nairobi,3.5,58,5058
+47,Tymset Ventures,Nairobi,3.5,0,5058
+48,Stunning Mansion,Nairobi,3.0,1,5058
+49,Nemadek Skyline Apartment,Kilimani,3.0,0,5058
+50,The Luke Hotel,Nairobi,3.0,8,5058
+51,Westlands Heights,Nairobi,3.5,0,5058
+52,Fourways Junction VIP Suite,Nairobi,3.0,0,5058
+53,The Joshua Gardens,Nairobi,3.0,0,5058
+54,Grandeur Cityview Apartments,Nairobi,3.5,0,5058
+55,The Clarion Hotel,Central Business District,3.5,29,5058
+56,TRINITY APARTMENT - THE HOME OF PEACE,Nairobi,3.5,0,5058
+57,Link Palm Apartments,Syokimau,3.5,0,5058
+58,Wida Resort Kilimani,Kilimani,3.0,1,5058
+59,Nairobi Executive Suites,Syokimau,3.0,7,5159
+60,CSK Holiday Home,Nairobi,3.0,1,5159
+61,Ken S Haven Athi River,Athi River,3.5,0,5159
+62,Sky Hotel Nairobi,Nairobi,3.0,5,5159
+63,Freshwind Villas,Athi River,3.0,0,5159
+64,Sherry Homes Heri,Nairobi,3.5,0,5159
+65,Ramon Cozy Maisonette,Nairobi,3.5,0,5159
+66,Red Ruby Hotel,Nairobi,3.5,7,5159
+67,Sandton Palace Hotel,Central Business District,3.5,0,5159
+68,Pearl Heaven ,Nairobi,2.5,0,5159
+69,Covitech Apartments,Kilimani,3.0,0,5159
+70,Dafam Hotel,Nairobi,2.0,2,5159
+71,Lucy Serviced Apartment,Nairobi,3.5,0,5159
+72,WE Hotel and Suites,Nairobi,3.0,18,5159
+73,The King Post,Nairobi,3.5,39,5159
+74,After 40 Hotel,Central Business District,3.5,29,5260
+75,Joy Palace,Nairobi,3.0,7,5260
+76,La Maison Royale,Nairobi,4.0,129,5260
+77,Heavenly Meadows,Syokimau,3.5,1,5361
+78,Sherry Homes Zana1,Nairobi,3.5,1,5361
+79,Central Park Hotel-Nairobi,Central Business District,3.0,5,5361
+80,The Cycads Suites,Nairobi,3.5,0,5361
+81,Back to Africa House,Central Business District,3.5,0,5462
+82,ACK Resort Salama,Syokimau,3.5,0,5462
+83,Konar House Kilimani,Kilimani,2.5,0,5462
+84,Verona Hotel & Conference Center,Ruiru,3.5,2,5462
+85,Redcliff Apartments,Kilimani,3.5,0,5462
+86,Oakwood Hotel,Central Business District,3.0,7,5563
+87,Esterina Apartments & Fitness Place,Nairobi,4.0,0,5563
+88,Leon Villas Guest House,Nairobi,3.0,0,5563
+89,Samaritan Homes,Kilimani,3.0,0,5563
+90,Acacia Gardens Homestay,Nairobi,3.0,2,5563
+91,Sherry Homes Raha Westlands,Nairobi,3.5,1,5563
+92,Ngong Hills Hotel,Nairobi,3.5,29,5664
+93,Hotel Emerald,Nairobi,3.5,22,5664
+94,Sherry Homes Skyline Penthouse,Nairobi,3.5,0,5664
+95,Milele Hotel Nairobi,Nairobi,2.5,1,5664
+96,Amani Gardens Inn,Nairobi,2.5,2,5766
+97,Easy Hotel Kenya,Syokimau,3.5,81,5766
+98,Lighthomez Angles Heights,Nairobi,3.5,0,5766
+99,West View Suits,Nairobi,3.0,0,5766
+0,Convent International Hotel-Nairobi,Nairobi,3.5,0,5766
+1,MMU Hotel,Ongata Rongai,3.5,1,5867
+2,215 Karen Garden,Nairobi,3.5,0,5867
+3,Lavington Hill House,"Lavington, Nairobi",3.5,8,5867
+4,Wildebeest Eco Camp,Nairobi,3.0,12,5867
+5,Chester Hotel and Suites,Central Business District,3.5,29,5867
+6,Game View Hotels,Ongata Rongai,3.5,0,5968
+7,The Zehneria Portico Westlands Nairobi,Nairobi,3.5,29,5867
+8,FPFK Guest House,Kilimani,3.0,0,5968
+9,Karen Inn and Suites,Nairobi,3.0,11,5968
+10,Tents Hotel,Nairobi,3.0,2,5968
+11,Savannah Airport Apartment,Syokimau,3.5,2,5968
+12,Sherry Homes Zana 2,Nairobi,3.5,1,5968
+13,Meltonia Luxury Suites,Kilimani,3.0,0,5968
+14,Hanan Guest House,Nairobi,3.0,1,5968
+15,Hotel Riverview Westlands,Nairobi,3.5,21,5968
+16,Runda Lofts,Gigiri,3.5,1,5968
+17,Sherry Homes - Fahari I,Nairobi,3.5,0,5968
+18,Eldon Villas,Kilimani,4.0,12,5968
+19,Silver Springs Hotel,Nairobi,3.0,16,5968
+20,Nairobi Luxury Suites,Kilimani,3.0,1,5968
+21,Utalii Hotel,Nairobi,3.0,3,5968
+22,Mash Park Hotel Nairobi,Nairobi,4.0,24,6069
+23,Jimlizer Hotel,Nairobi,2.5,0,6069
+24,Forest Breeze Gardens,Nairobi,3.0,0,6069
+25,United Kenya Club,Nairobi,3.5,0,6069
+26,S. Lucie Mango Apartment,Kilimani,3.5,0,6069
+27,Orchid Homes,Gigiri,3.5,14,6069
+28,Dreamplace Bed and Breakfast,Gigiri,3.5,1,6069
+29,Azure Hotel Nairobi,Nairobi,4.0,120,6372
+30,The Emory Hotel,Nairobi,3.5,1,5867
+31,Kingfisher Casa,Nairobi,3.0,1,6170
+32,Stupendous Views Penthouse 23,Kilimani,3.5,3,6170
+33,Hillpark Hotel,Nairobi,4.0,14,6170
+34,Linets Luxury Apartments,Nairobi,3.0,0,6271
+35,PrideInn Suites Lantana,Nairobi,4.0,14,6271
+36,PrideInn Hotel Westlands,Nairobi,3.0,16,6271
+37,Bezalel Apartment,Nairobi,2.5,0,6372
+38,PrideInn Hotel Raphta,Nairobi,3.0,8,6372
+39,West Breeze Hotel,Nairobi,3.5,20,6474
+40,Stay.plus Chiyumba Apartment,Kilimani,3.0,1,6474
+41,Bonsai Villa Homestay,Gigiri,2.5,1,6474
+42,Hope Gardens Guest House,Nairobi,3.0,0,6474
+43,The Strand Hotel,Nairobi,3.0,0,6575
+44,Fahari Gardens Hotel,Nairobi,3.0,9,6575
+45,Golf View Serviced Apartments,Nairobi,3.5,2,6575
+46,Kenya Comfort Suites,Central Business District,3.0,41,6575
+47,Milima 7,Nairobi,2.5,1,6575
+48,Fedha Residences,Kilimani,3.5,44,6676
+49,The Monarch Hotel,Kilimani,3.0,33,6676
+50,Osoita Lodge,Ongata Rongai,3.0,13,6676
+51,Greenpark Sundowner Hotel,Athi River,3.0,1,6676
+52,Kerarapony House,Nairobi,3.0,0,6777
+53,The Grand Gables,Nairobi,3.5,0,6777
+54,Rusam Villa Guest House,Central Business District,3.0,1,6777
+55,Exotic Apartments,Nairobi,3.5,1,6777
+56,67 Airport Hotel,Syokimau,3.0,68,6878
+57,The Landmark Suites,Nairobi,3.5,16,6878
+58,Lukenya Motorcross,Athi River,3.5,0,6878
+59,City Airport Apartment Nairobi,Syokimau,3.0,0,6878
+60,Nelson's Court Serviced Apartments,Nairobi,3.5,6,6878
+61,Karen Bomas Inn,Nairobi,3.0,4,6878
+62,Parklands Westlands Height,Nairobi,3.0,0,6878
+63,The Old Kings Lodge and Resort,Ongata Rongai,3.0,0,6878
+64,The Heron Portico,Kilimani,4.0,102,6878
+65,Norfolk Towers Serviced Apartments,Ngara West,3.5,29,6878
+66,Boma Inn Nairobi,Nairobi,3.5,27,6979
+67,Jacaranda Nairobi Hotel,Nairobi,3.5,60,6979
+68,Stupendous Views Penthouse 24,Kilimani,3.5,0,6979
+69,"House With 3 Bedrooms in Nairobi, With Wonderful City View, Furnished Balcony and Wifi",Nairobi,3.0,0,7080
+70,The White Resort,Athi River,3.0,0,7080
+71,Lifestyle Terraces - Syokimau,Syokimau,3.5,1,7080
+72,Andes Flats,Kilimani,4.0,0,7182
+73,ibis Styles Nairobi Westlands,Nairobi,3.5,279,7182
+74,Sunrise Park Suites,Syokimau,3.0,0,7182
+75,Lymack Suites,Nairobi,4.0,7,7283
+76,Methodist Resort,Nairobi,3.5,10,7283
+77,Esterina Suites,Nairobi,3.5,0,7283
+78,Sky View Park Apartments,Kilimani,3.5,1,7283
+79,Village Villa,Gigiri,3.0,4,7283
+80,Sigona Golf Suites,Kikuyu,4.0,2,7283
+81,Avalor Suites Milimani,Kilimani,3.5,0,7283
+82,Safi Hotels,Nairobi,3.0,0,7384
+83,Yurana Resort Kenya,Kitengela,2.5,0,7384
+84,Lukenya Getaway,Athi River,3.5,6,7384
+85,Paris Hotel,Central Business District,3.5,1,7384
+86,Cerenata Gardens Suites,Nairobi,3.5,0,7485
+87,Kilimo Grand Resort,Kikuyu,3.5,2,7485
+88,Cozy Residences,Nairobi,4.0,1,7485
+89,Saab Royale Hotel,Nairobi,3.5,2,7586
+90,yaya center,Kilimani,3.5,1,7586
+91,Thayu Farm Hotel,Limuru,3.5,0,7586
+92,Sherry Homes Jahazi Loft,Nairobi,3.5,0,7586
+93,Royal Tulip Canaan Nairobi,Kilimani,4.0,36,7687
+94,LIA Hotel & Training Centre,Nairobi,2.5,1,7687
+95,stanjo karen suites,Nairobi,3.0,1,7687
+96,Hilton Nairobi,Central Business District,4.0,138,7687
+97,Amelia Hotel Karen,Nairobi,3.5,0,7687
+98,Lissa Suites,Kilimani,3.5,0,7687
+99,Fahari Palace Serviced Apartments,Nairobi,4.0,5,7687
+0,Center Comfy Suites,Nairobi,3.5,0,7687
+1,Karen Village Art Residency,Nairobi,2.5,0,7687
+2,BTL,Ruiru,3.0,0,7687
+3,Hennessis Hotel,Ngara West,3.0,3,7687
+4,Bush House and Camp,Nairobi,3.0,1,7890
+5,Razana Hotel,Nairobi,3.5,0,7991
+6,Myra Residences by Trianum,Kilimani,3.5,8,7991
+7,Angel Court Apartments,Nairobi,2.5,0,7991
+8,Best Western Plus Meridian Hotel,Central Business District,3.5,442,7991
+9,Small World Country Club,Athi River,3.0,1,8092
+10,AIN Guest House,Kilimani,3.5,0,8092
+11,Magnolia Pine B&B,Nairobi,3.0,1,8092
+12,Sentrim 680 Hotel,Central Business District,3.0,12,8092
+13,Ole Dume Suites,Kilimani,3.0,0,8193
+14,Ramata Greens Apartment,Nairobi,3.5,0,8193
+15,Maasai Lodge,Central Business District,3.0,2,8193
+16,Just at Home Guest House,Gigiri,3.5,9,8193
+17,The Concord Hotel And Suites,Nairobi,4.5,71,8193
+18,Kate's Apartments,Nairobi,3.5,0,8193
+19,Wuduria Hotel,Nairobi,3.5,3,8294
+20,DoubleTree by Hilton Nairobi Hurlingham,Nairobi,4.0,94,8395
+21,Height Twisters Apartments,Nairobi,3.0,0,8497
+22,Mouni Residences - Westlands,Nairobi,3.0,1,8497
+23,Sportsview Hotel Kasarani,Kasarani,3.0,12,8497
+24,Panari Hotel,Nairobi,5.0,56,8497
+25,Highlands Suites Apartment Hotel,Kilimani,3.0,3,8598
+26,York Palace,"Lavington, Nairobi",3.0,0,8598
+27,3Dee Apartments,Kilimani,3.5,0,8598
+28,Ken S Haven Riara Road,Kilimani,3.5,0,8598
+29,City Airport Apartment,Syokimau,3.5,0,8598
+30,Sherry Homes Fahari II,Nairobi,3.0,0,8598
+31,Skyhorse Apartments,Kilimani,3.5,0,8598
+32,Karen Ndege House Inn,Nairobi,3.5,0,8598
+33,The Mayal Homestay,Nairobi,3.0,0,8598
+34,Neptune Winds Hotel,Ongata Rongai,3.0,0,8598
+35,Sentrim Boulevard Hotel,Ngara West,2.5,34,8598
+36,Margarita House,Nairobi,3.5,2,8598
+37,Greenpath Residence,Kilimani,4.0,3,8598
+38,"Lotos Inn & Suites, Nairobi",Nairobi,3.5,55,8699
+39,Hotel Rio,Nairobi,3.0,8,8699
+40,Cysuites Apartment Hotel,Nairobi,0.0,2,8699
+41,Marias Jkia Apartment,Mlolongo,3.0,0,8699
+42,Sarova Panafric,Nairobi,3.5,84,8800
+43,Westside Premier Apartments,Kilimani,3.5,0,8901
+44,Golden Tulip Westlands Nairobi,Nairobi,3.5,130,9104
+45,Crest Park Apartments,Kilimani,3.0,0,9104
+46,The Cottage Guest House - Gigiri,Gigiri,3.0,15,9205
+47,Bidwood Suite Hotel ,Nairobi,4.0,38,9306
+48,City Lodge Hotel at Two Rivers,Nairobi,4.0,10,9306
+49,Cozy Apartment,Nairobi,3.5,0,9407
+50,Fenesi Gardens Apartments,Nairobi,3.5,0,9407
+51,Riverland Apartments,Kilimani,3.5,0,9407
+52,Batians Peak Serviced Apartments,Kilimani,3.0,4,9407
+53,Tulos Apartment,Ruiru,3.5,0,9407
+54,Nairobi Safari Club,Central Business District,4.0,68,9508
+55,Severine Cottages and Lounge,Nairobi,2.5,27,9609
+56,Best Western Plus Westlands,Nairobi,4.0,0,9812
+57,Town Lodge Upper Hill Nairobi,Nairobi,3.5,71,9812
+58,Executive Residency by Best Western Nairobi,Nairobi,4.0,50,9812
+60,Acacia Tree Lodge,Nairobi,3.0,42,9913
+61,Zereniti House,Limuru,3.5,1,9913
+62,Park Inn by Radisson Nairobi Westlands,Nairobi,3.5,40,10014
+63,Nyati Hill Cottages,Nairobi,3.5,2,10014
+64,Elysian Resort,Nairobi,3.0,1,10115
+65,CHAYIL SUITES LANGATA,Nairobi,3.5,0,10115
+66,Weston Hotel,Nairobi,4.0,32,10216
+67,High Point Places,Runda,3.5,0,10317
+68,The Victorian Resort Kikuyu,Kikuyu,3.0,0,10317
+69,Hob House,Nairobi,3.5,4,10317
+70,Alpha Queens Home,Gigiri,4.0,3,10317
+71,Scenic View Apartments Kilimani,Kilimani,3.5,0,10317
+72,Four Points By Sheraton Nairobi Hurlingham,Kilimani,4.0,69,10317
+73,The Sarova Stanley,Central Business District,5.0,235,10418
+74,Villa Leone,Gigiri,3.0,4,10418
+75,Eka Hotel Nairobi,Nairobi,4.0,80,10722
+76,Gracia Gardens,Kilimani,3.5,1,10823
+77,Prime Living Luxury Apartments,Nairobi,4.5,5,10823
+78,L'Aziz Suites,Nairobi,4.0,3,10823
+79,Longview Suites,Nairobi,3.0,5,10823
+80,InterContinental Nairobi,Central Business District,5.0,129,10924
+81,Kamake Gardens Upper Hill,Nairobi,4.0,0,10924
+82,Crystal Glow Serviced Apartment,Kilimani,3.0,0,11126
+83,Yaya Towers & Hotel,Kilimani,3.5,18,11126
+84,West Wood Hotel,Nairobi,4.0,13,11126
+85,Summerdale Inn,Nairobi,3.5,0,11228
+86,Longonot Place Serviced Apartments,Nairobi,3.5,5,11228
+87,The Boma Nairobi,Nairobi,5.0,77,11430
+88,Bangili Rentals,Nairobi,3.0,0,11430
+89,Waridi Paradise Hotel & Suites,Kilimani,4.0,2,11531
+90,Clarence House,Nairobi,3.5,1,11531
+91,Adies Garden Suites,Gigiri,3.5,1,11531
+92,Tamarind Tree Hotel,Nairobi,4.0,52,11632
+93,Mimosa Court Apartments,Nairobi,3.5,18,11632
+94,Fairacres House Karen,Nairobi,3.5,3,11632
+95,Salonika Villas,"Lavington, Nairobi",3.5,0,11835
+96,Ole Sereni,Nairobi,4.5,122,11936
+97,Palacina The Residence & The Suites ,Kilimani,5.0,46,11936
+98,Crowne Plaza Hotel Nairobi,Nairobi,4.0,43,11936
+99,Mövenpick Hotel & Residences Nairobi,Nairobi,5.0,37,12138
+0,Hotel Ambassadeur,Central Business District,2.5,0,12138
+1,Crowne Plaza Nairobi Airport,Nairobi,5.0,291,12138
+2,Leleshwa Getaway,Nairobi,3.5,0,12340
+4,Comfort Gardens,Gigiri,3.0,6,12745
+5,Trademark Hotel,Gigiri,4.0,42,12745
+6,Fourways Junction 2,Nairobi,2.5,0,12846
+7,The Lofts At Wood Avenue - Kilimani,Kilimani,4.0,8,12846
+8,Nabo Residences & Spa,Kilimani,3.5,0,12846
+9,Hilton Garden Inn Nairobi Airport,Nairobi,4.0,397,12947
+10,Entim Sidai Wellness Sanctuary,Nairobi,4.0,4,12947
+11,Fairview Hotel,Nairobi,4.0,211,13150
+12,Seasons Airport Hotel,Nairobi,3.0,18,13251
+13,Fairmont The Norfolk,Central Business District,5.0,61,13352
+14,Radisson Blu Hotel Nairobi Upper Hill,Nairobi,5.0,121,13655
+15,Kingfisher Nest,Nairobi,3.5,14,13756
+16,Valley Arcade Towers,Kilimani,3.0,0,13756
+17,The IslanDreaM,Nairobi,3.5,0,13756
+18,Maanzoni Lodge,Athi River,3.5,0,13858
+19,Suite Life Residences,Kilimani,3.5,0,13959
+20,Kivi Milimani Hotel,Kilimani,3.0,1,14060
+21,Tribe Hotel,Gigiri,5.0,74,14161
+22,Sovereign Suites,Limuru,5.0,6,14464
+23,Four Points By Sheraton Nairobi Airport,Nairobi,4.0,431,12441
+24,View on the Rocks,Ongata Rongai,3.5,0,14566
+25,Zaburi Place,Nairobi,3.0,0,14869
+26,Ringsview,Nairobi,3.0,0,15274
+27,Karen Crescent Hotel,Nairobi,3.5,0,15476
+28,Dusit D2 Nairobi,Nairobi,5.0,67,15476
+29,Crestwood Country House,Limuru,2.5,0,15982
+30,Ack St. Julian's Centre,Limuru,3.5,0,16083
+31,Villa Rosa Kempinski,Nairobi,5.0,169,16184
+32,The Social House Nairobi,Nairobi,4.0,0,16285
+33,Lenana Suites,Kilimani,3.0,0,17094
+34,"Sankara Nairobi, Autograph Collection",Nairobi,5.0,80,17196
+35,37 On Kikambala - Kileleshwa,Nairobi,4.0,7,18005
+36,Windsor Golf Hotel & Country Club,Nairobi,5.0,31,18207
+37,GemSuites State House,Nairobi,3.0,1,18207
+38,Nairobi Serena Hotel,Nairobi,5.0,46,18308
+39,Safari Park Hotel And Casino,Nairobi,4.0,18,18510
+40,Hardy Koi House,Nairobi,3.0,0,19320
+41,"GemSuites Hotel & Apartments, Riverside",Nairobi,4.5,1,19623
+42,African Heritage House,Mlolongo,3.5,0,20533
+43,Shwari Cottage,Nairobi,3.0,0,22354
+44,Anga Afrika Luxury Boutique Camp Nairobi,Nairobi,3.5,4,23163
+45,Saab Royale Resort,Kitengela,3.5,0,23871
+46,Karen Gables,Nairobi,4.0,13,25490
+47,Hemingways Nairobi,Nairobi,5.0,36,26097
+48,La Belle Villa,Nairobi,3.5,0,34189
+49,House of Waine,Nairobi,4.5,2,39145
+50,Loldia House,Central Business District,3.0,0,80617
+51,Ol-Moran Tented Camp,Central Business District,3.5,0,85674
+52,Benrose Fast Foods,Nairobi,2.5,0,85674
+53,Cephars Place,Runda,3.0,0,214337
+54,Kileleshwa Lux Condo,"Lavington, Nairobi",3.0,0,231431
+29,The REE,Thika,3.0,0,1517
+30,Chester View Homestay - Hostel ,Mlolongo,2.0,0,1821
+31,A home away from home,Ruaka,3.0,2,2124
+36,Half City Lounge,Nairobi,2.5,0,2529
+37,Almond Apartments,Ruaka,3.5,0,2529
+39,Tamarind Meadows,Mlolongo,3.0,0,3034
+40,Bubbles Hotel Thika,Thika,3.5,2,3136
+41,Magi Guest House,Thika,2.5,0,3136
+43,Eton Hotel,Thika,3.5,1,3945
+44,The Luke Hotel Cravers Thika,Thika,3.0,13,4147
+45,Wasafi Garden & Spa Kibiko,Nairobi,3.0,0,4248
+46,Mayweather Suites,Ruaka,3.0,0,4552
+47,The Jadav Gardens,Limuru,3.5,0,4754
+49,Shuhan Hotel,Thika,3.5,0,5058
+50,Cosy 3 Bedroom Apartment,Mlolongo,3.0,0,5058
+51,Scenic View Thindigua Apartments,Nairobi,3.5,0,5159
+52,At Home With Ian,Ruaka,3.0,0,5260
+53,Ken's Haven Apartment,Nairobi,3.5,0,5563
+55,Best Western Azure Airport,Mlolongo,3.5,0,6878
+56,Swara Acacia Lodge,Athi River,3.5,2,7283
+58,Best Western Azure Airport Hotel,Mlolongo,4.0,5,9306
+60,Ndeiya House,Nairobi,3.5,0,85674
