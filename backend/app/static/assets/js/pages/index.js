@@ -108,12 +108,10 @@ $(function() {
                     columns: [
                         // each columns data
                         ['data1', 90, 55, 35, 24, 23, 10],
-                        // ['data2', 70, 78, 59, 76, 92, 128]
                     ],
                     type: 'bar', // default type of chart
                     colors: {
                         'data1': '#7e6990',
-                        // 'data2': '#ff9e47'
                     },
                     names: {
                         // name of each serie

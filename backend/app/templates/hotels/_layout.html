@@ -1,0 +1,166 @@
+<!-- Top Bar -->
+<nav class="navbar p-l-5 p-r-5">
+    <ul class="nav navbar-nav navbar-left">
+        <li>
+            <div class="navbar-header">
+                <a href="javascript:void(0);" class="bars"></a>
+                <a class="navbar-brand" href="{%url 'hotels:list-hotels'%}"><img src="https://thememakker.com/templates/oreo/realestate/html/assets/images/logo.svg" width="30" alt="Oreo"><span class="m-l-10">Oreo</span></a>
+            </div>
+        </li>
+        <li><a href="javascript:void(0);" class="ls-toggle-btn" data-close="true"><i class="zmdi zmdi-swap"></i></a></li>
+        <li><a href="#" title="Contact List"><i class="zmdi zmdi-account-box-phone"></i></a></li>
+
+        <li class="float-right">
+            <a href="{% url 'authentication:login' %}" class="mega-menu" data-close="true"><i class="zmdi zmdi-power"></i></a>
+        </li>
+    </ul>
+</nav>
+
+<!-- Left Sidebar -->
+<aside id="leftsidebar" class="sidebar">
+    <ul class="nav nav-tabs">
+        <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#dashboard"><i class="zmdi zmdi-home m-r-5"></i>Oreo</a></li>
+        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#user"><i class="zmdi zmdi-account m-r-5"></i>User</a></li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane stretchRight active" id="dashboard">
+            <div class="menu">
+                <ul class="list">
+                    <li>
+                        <div class="user-info">
+                            <div class="image"><a href="#"><img src="https://res.cloudinary.com/dsw3onksq/image/upload/v1572770462/Screenshot_2019-11-03_at_08.46.55_c9lqgw.png" alt="User"></a></div>
+                            <div class="detail">
+                                <h4>Hesbon</h4>
+                                <small>User</small>
+                            </div>
+                            <a title="facebook" href="javascript:void(0);"><i class="zmdi zmdi-facebook"></i></a>
+                            <a title="twitter" href="javascript:void(0);"><i class="zmdi zmdi-twitter"></i></a>
+                            <a title="instagram" href="javascript:void(0);"><i class="zmdi zmdi-instagram"></i></a>
+                        </div>
+                    </li>
+                    <li class="header">MAIN</li>
+                    <li><a href="{%url 'hotels:dashboard'%}"><i class="zmdi zmdi-home"></i><span>Dashboard</span></a></li>
+                    <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-city"></i><span>Hotel</span></a>
+                        <ul class="ml-menu">
+                            <li><a href="{%url 'hotels:add-hotel'%}">Add Hotel</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="tab-pane stretchLeft" id="user">
+            <div class="menu">
+                <ul class="list">
+                    <li>
+                        <div class="user-info m-b-20 p-b-15">
+                            <div class="image"><a href="profile.html"><img src="https://res.cloudinary.com/dsw3onksq/image/upload/v1572770462/Screenshot_2019-11-03_at_08.46.55_c9lqgw.png" alt="User"></a></div>
+                            <div class="detail">
+                                <h4>Hesbon</h4>
+                                <small>User</small>
+                            </div>
+                            <a title="facebook" href="javascript:void(0);"><i class="zmdi zmdi-facebook"></i></a>
+                            <a title="twitter" href="javascript:void(0);"><i class="zmdi zmdi-twitter"></i></a>
+                            <a title="instagram" href="javascript:void(0);"><i class="zmdi zmdi-instagram"></i></a>
+                            <p class="text-muted">77, Home Street</p>
+                            <div class="row">
+                                <div class="col-4">
+                                    <h6 class="mb-1">8</h6>
+                                    <small>Reviews</small>
+                                </div>
+                                <div class="col-4">
+                                    <h6 class="mb-1">7</h6>
+                                    <small>Likes</small>
+                                </div>
+                                <div class="col-4">
+                                    <h6 class="mb-1">13</h6>
+                                    <small>Bookings</small>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <small class="text-muted">Email address: </small>
+                        <p>Hesbon@gmail.com</p>
+                        <hr>
+                        <small class="text-muted">Phone: </small>
+                        <p>+ 254 727 737 299</p>
+                        <hr>
+                        <ul class="list-unstyled">
+                            <li>
+                                <div>Honesty & Integrity</div>
+                                <div class="progress m-b-20">
+                                    <div class="progress-bar l-blue " role="progressbar" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100" style="width: 89%"> <span class="sr-only">62% Complete</span> </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>Responsiveness</div>
+                                <div class="progress m-b-20">
+                                    <div class="progress-bar l-green " role="progressbar" aria-valuenow="56" aria-valuemin="0" aria-valuemax="100" style="width: 56%"> <span class="sr-only">87% Complete</span> </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>Local Knowledge</div>
+                                <div class="progress m-b-20">
+                                    <div class="progress-bar l-amber" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width: 78%"> <span class="sr-only">32% Complete</span> </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</aside>
+
+
+<!-- Chat-launcher -->
+<div class="chat-launcher"></div>
+<div class="chat-wrapper">
+    <div class="card">
+        <div class="header">
+            <ul class="list-unstyled team-info margin-0">
+                <li class="m-r-15"><h2>Agent Team</h2></li>
+                <li><img src="https://thememakker.com/templates/oreo/realestate/html/assets/images/xs/avatar2.jpg" alt="Avatar"></li>
+                <li><img src="https://thememakker.com/templates/oreo/realestate/html/assets/images/xs/avatar3.jpg" alt="Avatar"></li>
+                <li><img src="https://thememakker.com/templates/oreo/realestate/html/assets/images/xs/avatar4.jpg" alt="Avatar"></li>
+                <li><img src="https://thememakker.com/templates/oreo/realestate/html/assets/images/xs/avatar6.jpg" alt="Avatar"></li>
+                <li><a href="javascript:void(0);" title="Add Member"><i class="zmdi zmdi-plus-circle"></i></a></li>
+            </ul>
+        </div>
+        <div class="body">
+            <div class="chat-widget">
+            <ul class="chat-scroll-list clearfix">
+                <li class="left float-left">
+                    <img src="https://thememakker.com/templates/oreo/realestate/html/assets/images/xs/avatar3.jpg" class="rounded-circle" alt="">
+                    <div class="chat-info">
+                        <a class="name" href="javascript:void(0);">Alexander</a>
+                        <span class="datetime">6:12</span>
+                        <span class="message">Hello, John </span>
+                    </div>
+                </li>
+                <li class="right">
+                    <div class="chat-info"><span class="datetime">6:15</span> <span class="message">Hi, Alexander<br> How are you!</span> </div>
+                </li>
+                <li class="right">
+                    <div class="chat-info"><span class="datetime">6:16</span> <span class="message">There are many variations of passages of Lorem Ipsum available</span> </div>
+                </li>
+                <li class="left float-left"> <img src="https://thememakker.com/templates/oreo/realestate/html/assets/images/xs/avatar2.jpg" class="rounded-circle" alt="">
+                    <div class="chat-info"> <a class="name" href="javascript:void(0);">Elizabeth</a> <span class="datetime">6:25</span> <span class="message">Hi, Alexander,<br> John <br> What are you doing?</span> </div>
+                </li>
+                <li class="left float-left"> <img src="https://thememakker.com/templates/oreo/realestate/html/assets/images/xs/avatar1.jpg" class="rounded-circle" alt="">
+                    <div class="chat-info"> <a class="name" href="javascript:void(0);">Hesbon</a> <span class="datetime">6:28</span> <span class="message">I would love to join the team.</span> </div>
+                </li>
+                    <li class="right">
+                    <div class="chat-info"><span class="datetime">7:02</span> <span class="message">Hello, <br>Hesbon</span> </div>
+                </li>
+            </ul>
+            </div>
+            <div class="input-group p-t-15">
+                <input type="text" class="form-control" placeholder="Enter text here...">
+                <span class="input-group-addon">
+                    <i class="zmdi zmdi-mail-send"></i>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>

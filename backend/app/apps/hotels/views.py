@@ -5,7 +5,8 @@ import json
 from django.conf import settings
 from django.core.paginator import Paginator
 from django.db.models import Count, Sum
-from django.http import HttpResponseRedirect
+from django.http import JsonResponse
+
 from django.shortcuts import get_object_or_404, redirect, render, reverse
 from django.urls import reverse_lazy
 from django.views.generic import DetailView, ListView, View
@@ -78,6 +79,19 @@ class AddHotel(DetailView):
         context = {'hotel': "hotel"}
         return render(request, self.template_name, context)
 
+    def post(self, request):
+        data = json.loads(request.body.decode("utf-8"))
+        from django.http import JsonResponse
+
+        errors = [
+            "Name is required",
+            "Description"
+        ]
+        if errors:
+            return JsonResponse(errors)
+            # return JsonResponse({"errors":errors})
+
+        import pdb; pdb.set_trace()
 
 class RecommendationView(View):
 
