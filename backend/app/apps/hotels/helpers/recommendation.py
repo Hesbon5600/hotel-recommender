@@ -40,6 +40,7 @@ def generate_score():
     df_to_db = qualified_hotels[['id', 'score']]
     return df_to_db
 
+
 @celery_app.task(name="generate-recommendation")
 def persist_to_db():
     """

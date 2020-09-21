@@ -61,7 +61,7 @@ class Dashboard(DetailView):
             "humidity": res['current']['humidity'],
             "pressure": res['current']['pressure_in'],
             "temperature": res['current']['temp_c'],
-            "uv":res['current']['uv']
+            "uv": res['current']['uv']
         }
 
         regions = Address.objects.values('locality').distinct().count()
