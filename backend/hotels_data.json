@@ -1,0 +1,1668 @@
+[
+    {
+        "name": "The Sarova Stanley",
+        "thumbnail_url": "https://a.travel-assets.com/media/meso_cm/PAPI/Images/lodging/2000000/1400000/1395300/1395252/fafe78a4_b.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.822837,
+        "latitude": -1.283851,
+        "total_reviews": 689,
+        "star_rating": 4.5,
+        "price": 17160.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Gem Forest Hotel Nairobi - MGallery Collection",
+        "thumbnail_url": "https://a.travel-assets.com/media/meso_cm/PAPI/Images/lodging/103000000/102580000/102575300/102575224/40779b31_b.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Gigiri",
+        "longitude": 36.805467,
+        "latitude": -1.235147,
+        "total_reviews": 9,
+        "star_rating": 4.4,
+        "price": 24700.0,
+        "address": {
+            "locality": "Gigiri",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Nairobi Serena Hotel",
+        "thumbnail_url": "https://a.travel-assets.com/media/meso_cm/PAPI/Images/lodging/1000000/10000/9900/9864/3692e83f_b.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Kilimani",
+        "longitude": 36.814143,
+        "latitude": -1.287415,
+        "total_reviews": 278,
+        "star_rating": 4.7,
+        "price": 25480.0,
+        "address": {
+            "locality": "Kilimani",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "The Residences at Karen Country Club",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/89000000/88920000/88919900/88919895/c1fb3c90.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Karen",
+        "longitude": 36.714523,
+        "latitude": -1.345637,
+        "total_reviews": 2,
+        "star_rating": 5.0,
+        "price": 28600.0,
+        "address": {
+            "locality": "Karen",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "The Sarova Stanley",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/2000000/1400000/1395300/1395252/b1e5c81a.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.822837,
+        "latitude": -1.283851,
+        "total_reviews": 689,
+        "star_rating": 4.5,
+        "price": 17160.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Glee Nairobi, a Preferred LVX Hotel",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/100000000/99890000/99889200/99889194/379a3026.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.840058,
+        "latitude": -1.215546,
+        "total_reviews": 62,
+        "star_rating": 4.8,
+        "price": 18720.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Kwetu Nairobi, Curio Collection By Hilton",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/90000000/89930000/89920300/89920236/df52db6b.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.791731,
+        "latitude": -1.242238,
+        "total_reviews": 20,
+        "star_rating": 4.7,
+        "price": 17550.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Clarence House Nairobi",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/18000000/17680000/17679700/17679634/fe58600f.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.79366,
+        "latitude": -1.25746,
+        "total_reviews": 6,
+        "star_rating": 4.4,
+        "price": 22230.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Argyle Grand Hotel Nairobi Airport",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/101000000/100700000/100692800/100692708/7cfed71c.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi West",
+        "longitude": 36.905458,
+        "latitude": -1.353041,
+        "total_reviews": 305,
+        "star_rating": 4.5,
+        "price": 14950.0,
+        "address": {
+            "locality": "Nairobi West",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "41 Haven",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/90000000/89360000/89357800/89357774/ec16cb03.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Karen",
+        "longitude": 36.734136,
+        "latitude": -1.327399,
+        "total_reviews": 8,
+        "star_rating": 4.0,
+        "price": 21840.0,
+        "address": {
+            "locality": "Karen",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Trademark Hotel",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/24000000/23480000/23478400/23478390/9a870d70.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Gigiri",
+        "longitude": 36.803863,
+        "latitude": -1.230547,
+        "total_reviews": 258,
+        "star_rating": 4.5,
+        "price": 19890.0,
+        "address": {
+            "locality": "Gigiri",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Palacina The Residence & The Suites",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/11000000/10020000/10010700/10010671/180f7b14.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Kilimani",
+        "longitude": 36.791786,
+        "latitude": -1.283027,
+        "total_reviews": 162,
+        "star_rating": 4.7,
+        "price": 23010.0,
+        "address": {
+            "locality": "Kilimani",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Trademark Suites at Enaki Town",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/104000000/103870000/103860700/103860629/48423df0.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.786124,
+        "latitude": -1.22262,
+        "total_reviews": 2,
+        "star_rating": 5.0,
+        "price": 15730.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "The Social House Nairobi, a Preferred Lifestyle Hotel",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/45000000/44560000/44558800/44558772/f605ce40.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.764373,
+        "latitude": -1.284146,
+        "total_reviews": 105,
+        "star_rating": 4.8,
+        "price": 21710.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Tribe Hotel",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/3000000/2060000/2051800/2051788/2bcd38c3.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Gigiri",
+        "longitude": 36.804543,
+        "latitude": -1.22884,
+        "total_reviews": 220,
+        "star_rating": 4.4,
+        "price": 28470.0,
+        "address": {
+            "locality": "Gigiri",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Sarova Panafric Hotel",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/1000000/20000/17100/17030/adfcf755.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Kilimani",
+        "longitude": 36.810581,
+        "latitude": -1.289937,
+        "total_reviews": 408,
+        "star_rating": 4.2,
+        "price": 15340.0,
+        "address": {
+            "locality": "Kilimani",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "JW Marriott Hotel Nairobi",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/103000000/102190000/102188200/102188110/ea934704.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Westlands",
+        "longitude": 36.809588,
+        "latitude": -1.269767,
+        "total_reviews": 45,
+        "star_rating": 4.8,
+        "price": 34190.0,
+        "address": {
+            "locality": "Westlands",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Novotel Nairobi Westlands",
+        "thumbnail_url": "https://a.travel-assets.com/media/meso_cm/PAPI/Images/lodging/107000000/106210000/106208400/106208318/0709cd51_b.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.800625,
+        "latitude": -1.256593,
+        "total_reviews": 35,
+        "star_rating": 4.8,
+        "price": 15600.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Four Points By Sheraton Nairobi Hurlingham",
+        "thumbnail_url": "https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/6000000/5680000/5674400/5674388/6dd0ffeb_b.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Kilimani",
+        "longitude": 36.79509,
+        "latitude": -1.293943,
+        "total_reviews": 261,
+        "star_rating": 4.4,
+        "price": 18330.0,
+        "address": {
+            "locality": "Kilimani",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Radisson Blu Hotel & Residence, Nairobi Arboretum",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/40000000/39490000/39484300/39484258/8c3ebef3.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Kilimani",
+        "longitude": 36.804222,
+        "latitude": -1.278701,
+        "total_reviews": 201,
+        "star_rating": 4.7,
+        "price": 20410.0,
+        "address": {
+            "locality": "Kilimani",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Fairview Hotel",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/9000000/8410000/8403400/8403394/45135ce8.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Kilimani",
+        "longitude": 36.809404,
+        "latitude": -1.291572,
+        "total_reviews": 462,
+        "star_rating": 4.7,
+        "price": 17940.0,
+        "address": {
+            "locality": "Kilimani",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Radisson Blu Hotel Nairobi Upper Hill",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/13000000/12010000/12009800/12009760/c8f71f7d.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi Upper Hill",
+        "longitude": 36.81645,
+        "latitude": -1.301938,
+        "total_reviews": 185,
+        "star_rating": 4.5,
+        "price": 20150.0,
+        "address": {
+            "locality": "Nairobi Upper Hill",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Fair Acres Boutique Hotel",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/18000000/17480000/17475300/17475254/45b93742.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Karen",
+        "longitude": 36.737316,
+        "latitude": -1.34288,
+        "total_reviews": 10,
+        "star_rating": 4.0,
+        "price": 16380.0,
+        "address": {
+            "locality": "Karen",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Dusit Princess Hotel Residences Nairobi",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/78000000/77130000/77126200/77126138/260520ed.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.789053,
+        "latitude": -1.263757,
+        "total_reviews": 19,
+        "star_rating": 4.6,
+        "price": 16770.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Best Western Plus Westlands",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/45000000/44380000/44377600/44377567/6beee37d.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.801975,
+        "latitude": -1.261158,
+        "total_reviews": 191,
+        "star_rating": 4.6,
+        "price": 17680.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Margarita House",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/12000000/11260000/11255600/11255518/a6f571a9.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Karen",
+        "longitude": 36.72299,
+        "latitude": -1.32643,
+        "total_reviews": 22,
+        "star_rating": 4.8,
+        "price": 13260.0,
+        "address": {
+            "locality": "Karen",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Tamarind Tree Hotel",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/21000000/20620000/20610200/20610178/9d8f3b1b.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi West",
+        "longitude": 36.805719,
+        "latitude": -1.322628,
+        "total_reviews": 138,
+        "star_rating": 4.7,
+        "price": 19500.0,
+        "address": {
+            "locality": "Nairobi West",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Fairview Hotel",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/9000000/8410000/8403400/8403394/45135ce8.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Kilimani",
+        "longitude": 36.809404,
+        "latitude": -1.291572,
+        "total_reviews": 462,
+        "star_rating": 4.7,
+        "price": 17940.0,
+        "address": {
+            "locality": "Kilimani",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Pullman Nairobi Upper Hill",
+        "thumbnail_url": "https://a.travel-assets.com/media/meso_cm/PAPI/Images/lodging/103000000/102210000/102209800/102209763/80de5bc6_b.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi Upper Hill",
+        "longitude": 36.815181,
+        "latitude": -1.300481,
+        "total_reviews": 9,
+        "star_rating": 4.6,
+        "price": 16120.0,
+        "address": {
+            "locality": "Nairobi Upper Hill",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Gigiri Lion Villas 2",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/103000000/102050000/102047000/102046939/e26824ee.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Gigiri",
+        "longitude": 36.811592,
+        "latitude": -1.233539,
+        "total_reviews": 20,
+        "star_rating": 4.6,
+        "price": 21580.0,
+        "address": {
+            "locality": "Gigiri",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Novotel Nairobi Westlands",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/107000000/106210000/106208400/106208318/0709cd51.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.800625,
+        "latitude": -1.256593,
+        "total_reviews": 35,
+        "star_rating": 4.8,
+        "price": 15600.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Villa Rosa Kempinski",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/6000000/5820000/5814200/5814160/4f64cb0a.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.808628,
+        "latitude": -1.271853,
+        "total_reviews": 518,
+        "star_rating": 4.7,
+        "price": 27560.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Crowne Plaza Nairobi Airport by IHG",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/18000000/17600000/17595200/17595186/4d79c55e.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Embakasi",
+        "longitude": 36.913077,
+        "latitude": -1.340713,
+        "total_reviews": 927,
+        "star_rating": 4.7,
+        "price": 17550.0,
+        "address": {
+            "locality": "Embakasi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Ole Sereni",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/4000000/3170000/3167500/3167406/3c9736ed.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi West",
+        "longitude": 36.847875,
+        "latitude": -1.325531,
+        "total_reviews": 661,
+        "star_rating": 4.2,
+        "price": 16510.0,
+        "address": {
+            "locality": "Nairobi West",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Saggys Suites Hotel & Spa",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/93000000/92740000/92737600/92737581/17f134c7.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Kilimani",
+        "longitude": 36.804839,
+        "latitude": -1.289283,
+        "total_reviews": 8,
+        "star_rating": 4.0,
+        "price": 17290.0,
+        "address": {
+            "locality": "Kilimani",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "PrideInn Azure Hotel Nairobi Westlands",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/10000000/9070000/9062000/9061993/16f38431.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.798566,
+        "latitude": -1.267128,
+        "total_reviews": 356,
+        "star_rating": 4.1,
+        "price": 14170.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Golden Tulip Westlands Nairobi",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/14000000/13310000/13300500/13300434/1c89ae62.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Westlands",
+        "longitude": 36.80655,
+        "latitude": -1.265222,
+        "total_reviews": 311,
+        "star_rating": 4.2,
+        "price": 17810.0,
+        "address": {
+            "locality": "Westlands",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Gem Forest Hotel Nairobi - MGallery Collection",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/103000000/102580000/102575300/102575224/40779b31.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Gigiri",
+        "longitude": 36.805467,
+        "latitude": -1.235147,
+        "total_reviews": 9,
+        "star_rating": 4.4,
+        "price": 24700.0,
+        "address": {
+            "locality": "Gigiri",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "AIN Guest House",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/38000000/38000000/37995300/37995254/f4481c81.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Kilimani",
+        "longitude": 36.798818,
+        "latitude": -1.296171,
+        "total_reviews": 3,
+        "star_rating": 4.7,
+        "price": 16900.0,
+        "address": {
+            "locality": "Kilimani",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Pullman Nairobi Upper Hill",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/103000000/102210000/102209800/102209763/455a6fed.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi Upper Hill",
+        "longitude": 36.815181,
+        "latitude": -1.300481,
+        "total_reviews": 9,
+        "star_rating": 4.6,
+        "price": 16120.0,
+        "address": {
+            "locality": "Nairobi Upper Hill",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Hemingways Nairobi",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/6000000/5290000/5281800/5281715/de661e98.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Karen",
+        "longitude": 36.705759,
+        "latitude": -1.341516,
+        "total_reviews": 91,
+        "star_rating": 4.8,
+        "price": 37050.0,
+        "address": {
+            "locality": "Karen",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Skynest Residences by CityBlue, Nairobi",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/72000000/71650000/71640600/71640569/2bff972d.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.80397,
+        "latitude": -1.262092,
+        "total_reviews": 30,
+        "star_rating": 4.3,
+        "price": 18980.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Weston Hotel",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/13000000/12250000/12249300/12249297/a36c95d8.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Lang'ata",
+        "longitude": 36.813904,
+        "latitude": -1.316032,
+        "total_reviews": 109,
+        "star_rating": 4.3,
+        "price": 14820.0,
+        "address": {
+            "locality": "Lang'ata",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Gigiri Lion Villas 1",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/102000000/101070000/101065200/101065171/198e32d7.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Gigiri",
+        "longitude": 36.80717,
+        "latitude": -1.232375,
+        "total_reviews": 6,
+        "star_rating": 4.9,
+        "price": 21840.0,
+        "address": {
+            "locality": "Gigiri",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Emara Ole-sereni",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/67000000/66540000/66534800/66534795/dcd4d033.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi West",
+        "longitude": 36.846698,
+        "latitude": -1.326838,
+        "total_reviews": 89,
+        "star_rating": 4.1,
+        "price": 25220.0,
+        "address": {
+            "locality": "Nairobi West",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Pax Manor Muthaiga",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/113000000/112780000/112773000/112772957/f8efcb9b.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.825636,
+        "latitude": -1.251793,
+        "total_reviews": 0,
+        "star_rating": 0.0,
+        "price": 34710.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "LIGHT VILLAS",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/105000000/104660000/104659800/104659703/d6a6718d.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Gigiri",
+        "longitude": 36.810657,
+        "latitude": -1.232187,
+        "total_reviews": 2,
+        "star_rating": 5.0,
+        "price": 19760.0,
+        "address": {
+            "locality": "Gigiri",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "La Mada Hotel",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/2000000/1860000/1853400/1853381/126ce531.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.859258,
+        "latitude": -1.244593,
+        "total_reviews": 11,
+        "star_rating": 4.4,
+        "price": 13390.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "DoubleTree by Hilton Nairobi Hurlingham",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/13000000/12950000/12944200/12944190/8057c91e.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.784897,
+        "latitude": -1.300946,
+        "total_reviews": 205,
+        "star_rating": 4.5,
+        "price": 13260.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Clarence House Nairobi",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/18000000/17680000/17679700/17679634/fe58600f.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.79366,
+        "latitude": -1.25746,
+        "total_reviews": 6,
+        "star_rating": 4.4,
+        "price": 22230.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Windsor Golf Hotel & Country Club",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/1000000/10000/4300/4226/50d3aeb3.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.850615,
+        "latitude": -1.210289,
+        "total_reviews": 84,
+        "star_rating": 4.3,
+        "price": 24960.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Somerset Westview Nairobi",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/74000000/73500000/73490900/73490807/550c7583.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Kilimani",
+        "longitude": 36.790231,
+        "latitude": -1.286854,
+        "total_reviews": 58,
+        "star_rating": 4.8,
+        "price": 18200.0,
+        "address": {
+            "locality": "Kilimani",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Deerpark Luxury Stays",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/100000000/99250000/99248400/99248353/f054fadf.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.769676,
+        "latitude": -1.293934,
+        "total_reviews": 14,
+        "star_rating": 4.8,
+        "price": 14820.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Mimosa Court Apartments",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/18000000/17280000/17277400/17277335/3ae81b54.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.79889,
+        "latitude": -1.30043,
+        "total_reviews": 71,
+        "star_rating": 4.5,
+        "price": 13390.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Broadwalk Residency",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/92000000/91540000/91539700/91539693/19c93e0b.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Westlands",
+        "longitude": 36.812206,
+        "latitude": -1.268554,
+        "total_reviews": 8,
+        "star_rating": 4.7,
+        "price": 18590.0,
+        "address": {
+            "locality": "Westlands",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "The Lofts At Wood Avenue - Kilimani",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/39000000/38410000/38408900/38408835/8c544cb6.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Kilimani",
+        "longitude": 36.78631,
+        "latitude": -1.29517,
+        "total_reviews": 10,
+        "star_rating": 4.7,
+        "price": 38090.0,
+        "address": {
+            "locality": "Kilimani",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "The Courtyard at Vanga",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/39000000/38410000/38406500/38406438/cceecda6.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.76456,
+        "latitude": -1.29123,
+        "total_reviews": 7,
+        "star_rating": 4.9,
+        "price": 17810.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "PrideInn Azure Hotel Nairobi Westlands",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/10000000/9070000/9062000/9061993/16f38431.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.798566,
+        "latitude": -1.267128,
+        "total_reviews": 356,
+        "star_rating": 4.1,
+        "price": 14170.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "JW Marriott Hotel Nairobi",
+        "thumbnail_url": "https://a.travel-assets.com/media/meso_cm/PAPI/Images/lodging/103000000/102190000/102188200/102188110/5a3d13da_b.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Westlands",
+        "longitude": 36.809588,
+        "latitude": -1.269767,
+        "total_reviews": 45,
+        "star_rating": 4.8,
+        "price": 34190.0,
+        "address": {
+            "locality": "Westlands",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Hyatt Regency Nairobi Westlands",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/100000000/99230000/99221600/99221531/af2b8e9b.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Westlands",
+        "longitude": 36.808996,
+        "latitude": -1.268043,
+        "total_reviews": 26,
+        "star_rating": 4.7,
+        "price": 18460.0,
+        "address": {
+            "locality": "Westlands",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Magna Hotel and Suites",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/21000000/20160000/20155900/20155822/ca78de6a.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Gigiri",
+        "longitude": 36.8047,
+        "latitude": -1.23134,
+        "total_reviews": 1,
+        "star_rating": 5.0,
+        "price": 23790.0,
+        "address": {
+            "locality": "Gigiri",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Hermosa Garden Hotel",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/90000000/89630000/89622600/89622508/5b4b347f.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Karen",
+        "longitude": 36.706215,
+        "latitude": -1.345796,
+        "total_reviews": 4,
+        "star_rating": 5.0,
+        "price": 27040.0,
+        "address": {
+            "locality": "Karen",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Nyati Hill Cottages",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/34000000/33290000/33286600/33286587/42ffc065.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.798419,
+        "latitude": -1.389263,
+        "total_reviews": 2,
+        "star_rating": 5.0,
+        "price": 13130.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Safari Park Hotel And Casino",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/1000000/30000/26900/26826/1240f340.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.882767,
+        "latitude": -1.226925,
+        "total_reviews": 63,
+        "star_rating": 4.1,
+        "price": 20020.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Four Points By Sheraton Nairobi Hurlingham",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/6000000/5680000/5674400/5674388/a7cbf3d8.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Kilimani",
+        "longitude": 36.79509,
+        "latitude": -1.293943,
+        "total_reviews": 261,
+        "star_rating": 4.4,
+        "price": 18330.0,
+        "address": {
+            "locality": "Kilimani",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Pan Pacific Serviced Suites Nairobi",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/91000000/90940000/90933900/90933846/03e55e12.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Westlands",
+        "longitude": 36.809191,
+        "latitude": -1.269938,
+        "total_reviews": 8,
+        "star_rating": 4.8,
+        "price": 21840.0,
+        "address": {
+            "locality": "Westlands",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "The Drexel House Kenya",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/91000000/90050000/90047400/90047339/939d72e2.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Karen",
+        "longitude": 36.680699,
+        "latitude": -1.303697,
+        "total_reviews": 1,
+        "star_rating": 5.0,
+        "price": 22230.0,
+        "address": {
+            "locality": "Karen",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Windsor Golf Hotel & Country Club",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/1000000/10000/4300/4226/50d3aeb3.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.850615,
+        "latitude": -1.210289,
+        "total_reviews": 84,
+        "star_rating": 4.3,
+        "price": 24960.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "La Mada Hotel",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/2000000/1860000/1853400/1853381/126ce531.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.859258,
+        "latitude": -1.244593,
+        "total_reviews": 11,
+        "star_rating": 4.4,
+        "price": 13390.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "37 On Kikambala - Kileleshwa",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/39000000/38410000/38409000/38408950/be00c330.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Kileleshwa",
+        "longitude": 36.781739,
+        "latitude": -1.286618,
+        "total_reviews": 7,
+        "star_rating": 4.5,
+        "price": 26650.0,
+        "address": {
+            "locality": "Kileleshwa",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Bidwood Suite Hotel",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/11000000/10020000/10011500/10011461/d4a0abb0.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.801173,
+        "latitude": -1.258627,
+        "total_reviews": 92,
+        "star_rating": 4.6,
+        "price": 15470.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Kwetu Nairobi, Curio Collection By Hilton",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/90000000/89930000/89920300/89920236/df52db6b.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.791731,
+        "latitude": -1.242238,
+        "total_reviews": 20,
+        "star_rating": 4.7,
+        "price": 17550.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Hilton Garden Inn Nairobi Airport",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/20000000/19670000/19663300/19663206/df4a48e4.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Embakasi",
+        "longitude": 36.8915,
+        "latitude": -1.33431,
+        "total_reviews": 846,
+        "star_rating": 4.6,
+        "price": 16380.0,
+        "address": {
+            "locality": "Embakasi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Hyatt Place Nairobi Westlands",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/102000000/101750000/101744300/101744237/0e2b634f.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.800656,
+        "latitude": -1.260161,
+        "total_reviews": 0,
+        "star_rating": 0.0,
+        "price": 17940.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Nairobi Serena Hotel",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/1000000/10000/9900/9864/0c7f247c.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Kilimani",
+        "longitude": 36.814143,
+        "latitude": -1.287415,
+        "total_reviews": 278,
+        "star_rating": 4.7,
+        "price": 25480.0,
+        "address": {
+            "locality": "Kilimani",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "M\u00f6venpick Hotel & Residences Nairobi",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/23000000/22480000/22473200/22473160/cc6f24ea.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.80458,
+        "latitude": -1.26124,
+        "total_reviews": 193,
+        "star_rating": 4.4,
+        "price": 16770.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Executive Residency by Best Western Nairobi",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/17000000/16710000/16706000/16705977/e9c58ec6.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Kileleshwa",
+        "longitude": 36.785862,
+        "latitude": -1.268344,
+        "total_reviews": 110,
+        "star_rating": 4.7,
+        "price": 14560.0,
+        "address": {
+            "locality": "Kileleshwa",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Jacaranda Nairobi Hotel",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/2000000/1190000/1189700/1189651/60605a12.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.801507,
+        "latitude": -1.262302,
+        "total_reviews": 156,
+        "star_rating": 4.0,
+        "price": 13780.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Aero Club of East Africa",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/35000000/34980000/34979600/34979521/e399d410.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi West",
+        "longitude": 36.8087,
+        "latitude": -1.32148,
+        "total_reviews": 26,
+        "star_rating": 4.8,
+        "price": 13910.0,
+        "address": {
+            "locality": "Nairobi West",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Yaya Hotel and Apartments",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/20000000/19800000/19791300/19791204/56229f97.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Kilimani",
+        "longitude": 36.788375,
+        "latitude": -1.29253,
+        "total_reviews": 49,
+        "star_rating": 4.7,
+        "price": 37050.0,
+        "address": {
+            "locality": "Kilimani",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Park Inn by Radisson Nairobi Westlands",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/18000000/17930000/17924800/17924777/3e9fe8d1.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.80048,
+        "latitude": -1.263424,
+        "total_reviews": 191,
+        "star_rating": 4.5,
+        "price": 13390.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Fairmont The Norfolk",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/1000000/10000/8200/8123/8b8a7668.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.81624,
+        "latitude": -1.278581,
+        "total_reviews": 178,
+        "star_rating": 4.5,
+        "price": 25870.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Karen Inn and Suites",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/11000000/10010000/10001000/10000976/f7520854.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Karen",
+        "longitude": 36.71715,
+        "latitude": -1.321793,
+        "total_reviews": 24,
+        "star_rating": 3.6,
+        "price": 14820.0,
+        "address": {
+            "locality": "Karen",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Four Points By Sheraton Nairobi Airport",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/21000000/20860000/20852700/20852699/ec99ccb9.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Embakasi",
+        "longitude": 36.919796,
+        "latitude": -1.339784,
+        "total_reviews": 855,
+        "star_rating": 4.6,
+        "price": 26520.0,
+        "address": {
+            "locality": "Embakasi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "PrideInn Westlands Luxury Boutique Hotel",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/5000000/4180000/4175300/4175207/b69d9d24.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Westlands",
+        "longitude": 36.805937,
+        "latitude": -1.266557,
+        "total_reviews": 61,
+        "star_rating": 3.8,
+        "price": 13780.0,
+        "address": {
+            "locality": "Westlands",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Travelers Safari - Westlands",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/100000000/99920000/99918000/99917995/48a5d745.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Westlands",
+        "longitude": 36.808614,
+        "latitude": -1.271344,
+        "total_reviews": 0,
+        "star_rating": 0.0,
+        "price": 40950.0,
+        "address": {
+            "locality": "Westlands",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "DoubleTree by Hilton Nairobi Hurlingham",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/13000000/12950000/12944200/12944190/8057c91e.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.784897,
+        "latitude": -1.300946,
+        "total_reviews": 205,
+        "star_rating": 4.5,
+        "price": 13260.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Riverside Park",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/106000000/105480000/105479000/105478939/9901b1ab.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.80625,
+        "latitude": -1.270258,
+        "total_reviews": 1,
+        "star_rating": 5.0,
+        "price": 13260.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "M\u00f6venpick Hotel & Residences Nairobi",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/23000000/22480000/22473200/22473160/cc6f24ea.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.80458,
+        "latitude": -1.26124,
+        "total_reviews": 193,
+        "star_rating": 4.4,
+        "price": 16770.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Lux Suites Capital Rise Apartments",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/111000000/110560000/110550700/110550615/73af2729.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Kilimani",
+        "longitude": 36.783891,
+        "latitude": -1.296324,
+        "total_reviews": 0,
+        "star_rating": 0.0,
+        "price": 15860.0,
+        "address": {
+            "locality": "Kilimani",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Hyatt House Nairobi Westlands",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/111000000/110560000/110554600/110554585/53bbd55f.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.80259,
+        "latitude": -1.260175,
+        "total_reviews": 0,
+        "star_rating": 0.0,
+        "price": 18330.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Riverside Park by YourHost",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/90000000/89480000/89474500/89474430/2b03417c.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Kilimani",
+        "longitude": 36.79068,
+        "latitude": -1.282405,
+        "total_reviews": 0,
+        "star_rating": 0.0,
+        "price": 15730.0,
+        "address": {
+            "locality": "Kilimani",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Purple Haze by Aircasa",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/95000000/94660000/94658900/94658824/605db4d1.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Kilimani",
+        "longitude": 36.790606,
+        "latitude": -1.283448,
+        "total_reviews": 5,
+        "star_rating": 2.6,
+        "price": 16510.0,
+        "address": {
+            "locality": "Kilimani",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Vesta Garden Apartments Kilimani",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/111000000/110390000/110386400/110386369/578f9015.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Kilimani",
+        "longitude": 36.791729,
+        "latitude": -1.29915,
+        "total_reviews": 0,
+        "star_rating": 0.0,
+        "price": 14560.0,
+        "address": {
+            "locality": "Kilimani",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Comfort Gardens",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/6000000/5570000/5563700/5563671/a7b652f6.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Gigiri",
+        "longitude": 36.80442,
+        "latitude": -1.23144,
+        "total_reviews": 30,
+        "star_rating": 3.5,
+        "price": 14300.0,
+        "address": {
+            "locality": "Gigiri",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "La Belle Villa",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/20000000/19820000/19816100/19816094/3ddbae26.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Karen",
+        "longitude": 36.739149,
+        "latitude": -1.373446,
+        "total_reviews": 0,
+        "star_rating": 0.0,
+        "price": 39000.0,
+        "address": {
+            "locality": "Karen",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Riverside Tropical oasis 4bedroom",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/106000000/105520000/105518100/105518054/0d6c2073.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.804462,
+        "latitude": -1.270797,
+        "total_reviews": 3,
+        "star_rating": 4.5,
+        "price": 14950.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Capital White Mischief Line  by YourHost",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/106000000/105630000/105622200/105622185/ee05f01f.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Westlands",
+        "longitude": 36.806712,
+        "latitude": -1.26458,
+        "total_reviews": 1,
+        "star_rating": 4.0,
+        "price": 14430.0,
+        "address": {
+            "locality": "Westlands",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Karen Crescent Hotel",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/20000000/19780000/19779600/19779508/f671a5ee.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Karen",
+        "longitude": 36.742995,
+        "latitude": -1.338633,
+        "total_reviews": 0,
+        "star_rating": 0.0,
+        "price": 17810.0,
+        "address": {
+            "locality": "Karen",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Warwick Centre",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/94000000/93860000/93853300/93853291/04095401.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Gigiri",
+        "longitude": 36.811444,
+        "latitude": -1.235516,
+        "total_reviews": 3,
+        "star_rating": 5.0,
+        "price": 24050.0,
+        "address": {
+            "locality": "Gigiri",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Myra Residences Kilimani",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/107000000/106640000/106631600/106631512/b129981a.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Kilimani",
+        "longitude": 36.794316,
+        "latitude": -1.297554,
+        "total_reviews": 0,
+        "star_rating": 0.0,
+        "price": 15860.0,
+        "address": {
+            "locality": "Kilimani",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Lux Suites Vesta Gardens Apartments",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/107000000/106810000/106803200/106803162/1f4d611d.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Kilimani",
+        "longitude": 36.791669,
+        "latitude": -1.299202,
+        "total_reviews": 0,
+        "star_rating": 0.0,
+        "price": 14040.0,
+        "address": {
+            "locality": "Kilimani",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "THE PREMIER SUITES",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/79000000/78750000/78746500/78746435/4087cd26.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Gigiri",
+        "longitude": 36.808404,
+        "latitude": -1.232368,
+        "total_reviews": 36,
+        "star_rating": 4.4,
+        "price": 16640.0,
+        "address": {
+            "locality": "Gigiri",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Samra Court",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/33000000/32600000/32598800/32598788/1909b9d0.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Kilimani",
+        "longitude": 36.788756,
+        "latitude": -1.292565,
+        "total_reviews": 0,
+        "star_rating": 0.0,
+        "price": 19890.0,
+        "address": {
+            "locality": "Kilimani",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Lux Suites Skyline Apartments Kilimani",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/101000000/100100000/100098400/100098377/953aabe7.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Kilimani",
+        "longitude": 36.791236,
+        "latitude": -1.293738,
+        "total_reviews": 2,
+        "star_rating": 2.8,
+        "price": 15860.0,
+        "address": {
+            "locality": "Kilimani",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Karen Blixen Coffee Garden & Cottages",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/92000000/91340000/91339100/91339060/08838a3c.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Karen",
+        "longitude": 36.71413,
+        "latitude": -1.345429,
+        "total_reviews": 2,
+        "star_rating": 5.0,
+        "price": 44460.0,
+        "address": {
+            "locality": "Karen",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "House of Waine",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/9000000/8730000/8726300/8726236/e9bbb353.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Karen",
+        "longitude": 36.723124,
+        "latitude": -1.355778,
+        "total_reviews": 2,
+        "star_rating": 5.0,
+        "price": 56030.0,
+        "address": {
+            "locality": "Karen",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "The Panari Hotel - Near Jomo Kenyatta International Airport",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/3000000/2420000/2417800/2417709/f67b87ad.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.855423,
+        "latitude": -1.329491,
+        "total_reviews": 256,
+        "star_rating": 4.0,
+        "price": 13000.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Lux Suites Laurel Hill Suites",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/112000000/111210000/111203700/111203608/a5e55872.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi Upper Hill",
+        "longitude": 36.81328,
+        "latitude": -1.305259,
+        "total_reviews": 13,
+        "star_rating": 4.4,
+        "price": 14040.0,
+        "address": {
+            "locality": "Nairobi Upper Hill",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Le Mac Apartments Westlands",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/104000000/103920000/103917600/103917584/0808d43a.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.78919,
+        "latitude": -1.26199,
+        "total_reviews": 0,
+        "star_rating": 0.0,
+        "price": 17550.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Maasai Lodge",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/37000000/36290000/36286600/36286520/2af3d9ed.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.821946,
+        "latitude": -1.292066,
+        "total_reviews": 25,
+        "star_rating": 4.3,
+        "price": 16380.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Urban Oasis Apartments Lavington",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/106000000/105880000/105872700/105872683/2d1c14c7.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.761395,
+        "latitude": -1.293753,
+        "total_reviews": 0,
+        "star_rating": 0.0,
+        "price": 15860.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Lux Suites Silver Habor Apartments ",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/101000000/100550000/100542800/100542731/1534058e.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Kilimani",
+        "longitude": 36.789988,
+        "latitude": -1.297717,
+        "total_reviews": 0,
+        "star_rating": 0.0,
+        "price": 14040.0,
+        "address": {
+            "locality": "Kilimani",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Lux Suites Clay City Heights Kasarani",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/107000000/106290000/106285100/106285079/fec26ddc.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.911338,
+        "latitude": -1.213863,
+        "total_reviews": 0,
+        "star_rating": 0.0,
+        "price": 14040.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Lux Suites Siaya Park Apartments",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/102000000/101090000/101087500/101087449/1c9a70ed.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Kileleshwa",
+        "longitude": 36.791508,
+        "latitude": -1.279546,
+        "total_reviews": 0,
+        "star_rating": 0.0,
+        "price": 14560.0,
+        "address": {
+            "locality": "Kileleshwa",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Lux Suites Lay Canon Apartments Ngara",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/108000000/107990000/107982900/107982811/2d142818.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.822102,
+        "latitude": -1.275145,
+        "total_reviews": 0,
+        "star_rating": 0.0,
+        "price": 14040.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Lux Suites Silver Habor  Apartments",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/101000000/100100000/100099900/100099825/8a4d4c35.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Kilimani",
+        "longitude": 36.789897,
+        "latitude": -1.297722,
+        "total_reviews": 0,
+        "star_rating": 0.0,
+        "price": 13260.0,
+        "address": {
+            "locality": "Kilimani",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Lux Suites Le marc Luxury Apartments",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/100000000/99980000/99975900/99975830/33c77336.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Nairobi",
+        "longitude": 36.789414,
+        "latitude": -1.26112,
+        "total_reviews": 0,
+        "star_rating": 0.0,
+        "price": 14560.0,
+        "address": {
+            "locality": "Nairobi",
+            "region": "Nairobi"
+        }
+    },
+    {
+        "name": "Lux Suites Staroot Residency Kilimani",
+        "thumbnail_url": "https://images.trvl-media.com/lodging/103000000/102940000/102931200/102931166/39a4d6be.jpg?impolicy=resizecrop&rw=455&ra=fit",
+        "locality": "Kilimani",
+        "longitude": 36.785504,
+        "latitude": -1.292241,
+        "total_reviews": 0,
+        "star_rating": 0.0,
+        "price": 13130.0,
+        "address": {
+            "locality": "Kilimani",
+            "region": "Nairobi"
+        }
+    }
+]

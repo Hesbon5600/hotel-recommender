@@ -6,313 +6,370 @@
 <html lang="en">
 
 <!-- Mirrored from thememakker.com/templates/oreo/realestate/html/light/property-list4.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 02 Mar 2020 07:34:46 GMT -->
+
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="RealEstate, Admin, Dashboard, template, UI kit, RealEstate Admin, Bootstrap 4x">
-<meta name="author" content="Thememakker">
-<title>:: Oreo RealEstate :: Property</title>
-<link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Favicon-->
-<link rel="stylesheet" href="https://thememakker.com/templates/oreo/realestate/html/assets/plugins/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/css/bootstrap-slider.min.css">
-<!-- Custom Css -->
-<link rel="stylesheet" href="{% static 'assets/css/main.css' %}">
-<link rel="stylesheet" href="{% static 'assets/css/color_skins.css' %}">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="RealEstate, Admin, Dashboard, template, UI kit, RealEstate Admin, Bootstrap 4x">
+    <meta name="author" content="Thememakker">
+    <title>:: Oreo RealEstate :: Property</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Favicon-->
+    <link rel="stylesheet"
+        href="https://thememakker.com/templates/oreo/realestate/html/assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/css/bootstrap-slider.min.css">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="{% static 'assets/css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/color_skins.css' %}">
 </head>
+
 <body class="theme-purple">
-<!-- Page Loader -->
-<div class="page-loader-wrapper">
-    <div class="loader">
-        <div class="m-t-30"><img class="zmdi-hc-spin" src="https://thememakker.com/templates/oreo/realestate/html/assets/images/logo.svg" width="48" height="48" alt="Oreo"></div>
-        <p>Please wait...</p>
-    </div>
-</div>
-<!-- Overlay For Sidebars -->
-<div class="overlay"></div>
-
-<!-- Top Bar -->
-<nav class="navbar p-l-5 p-r-5">
-    <ul class="nav navbar-nav navbar-left">
-        <li>
-            <div class="navbar-header">
-                <a href="javascript:void(0);" class="bars"></a>
-                <a class="navbar-brand" href="{%url 'hotels:list-hotels'%}"><img src="https://thememakker.com/templates/oreo/realestate/html/assets/images/logo.svg" width="30" alt="Oreo"><span class="m-l-10">Oreo</span></a>
-            </div>
-        </li>
-        <li><a href="javascript:void(0);" class="ls-toggle-btn" data-close="true"><i class="zmdi zmdi-swap"></i></a></li>
-        <li><a href="#" title="Contact List"><i class="zmdi zmdi-account-box-phone"></i></a></li>
-
-        <li class="float-right">
-            <a href="{% url 'authentication:login' %}" class="mega-menu" data-close="true"><i class="zmdi zmdi-power"></i></a>
-        </li>
-    </ul>
-</nav>
-
-<!-- Left Sidebar -->
-<aside id="leftsidebar" class="sidebar">
-    <ul class="nav nav-tabs">
-        <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#dashboard"><i class="zmdi zmdi-home m-r-5"></i>Oreo</a></li>
-        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#user"><i class="zmdi zmdi-account m-r-5"></i>User</a></li>
-    </ul>
-    <div class="tab-content">
-        <div class="tab-pane stretchRight active" id="dashboard">
-            <div class="menu">
-                <ul class="list">
-                    <li>
-                        <div class="user-info">
-                            <div class="image"><a href="#"><img src="https://res.cloudinary.com/dsw3onksq/image/upload/v1572770462/Screenshot_2019-11-03_at_08.46.55_c9lqgw.png" alt="User"></a></div>
-                            <div class="detail">
-                                <h4>Hesbon</h4>
-                                <small>User</small>
-                            </div>
-                            <a title="facebook" href="javascript:void(0);"><i class="zmdi zmdi-facebook"></i></a>
-                            <a title="twitter" href="javascript:void(0);"><i class="zmdi zmdi-twitter"></i></a>
-                            <a title="instagram" href="javascript:void(0);"><i class="zmdi zmdi-instagram"></i></a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="tab-pane stretchLeft" id="user">
-            <div class="menu">
-                <ul class="list">
-                    <li>
-                        <div class="user-info m-b-20 p-b-15">
-                            <div class="image"><a href="profile.html"><img src="https://res.cloudinary.com/dsw3onksq/image/upload/v1572770462/Screenshot_2019-11-03_at_08.46.55_c9lqgw.png" alt="User"></a></div>
-                            <div class="detail">
-                                <h4>Hesbon</h4>
-                                <small>User</small>
-                            </div>
-                            <a title="facebook" href="javascript:void(0);"><i class="zmdi zmdi-facebook"></i></a>
-                            <a title="twitter" href="javascript:void(0);"><i class="zmdi zmdi-twitter"></i></a>
-                            <a title="instagram" href="javascript:void(0);"><i class="zmdi zmdi-instagram"></i></a>
-                            <p class="text-muted">77, Home Street</p>
-                            <div class="row">
-                                <div class="col-4">
-                                    <h6 class="mb-1">8</h6>
-                                    <small>Reviews</small>
-                                </div>
-                                <div class="col-4">
-                                    <h6 class="mb-1">7</h6>
-                                    <small>Likes</small>
-                                </div>
-                                <div class="col-4">
-                                    <h6 class="mb-1">13</h6>
-                                    <small>Bookings</small>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <small class="text-muted">Email address: </small>
-                        <p>Hesbon@gmail.com</p>
-                        <hr>
-                        <small class="text-muted">Phone: </small>
-                        <p>+ 254 727 737 299</p>
-                        <hr>
-                        <ul class="list-unstyled">
-                            <li>
-                                <div>Honesty & Integrity</div>
-                                <div class="progress m-b-20">
-                                    <div class="progress-bar l-blue " role="progressbar" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100" style="width: 89%"> <span class="sr-only">62% Complete</span> </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div>Responsiveness</div>
-                                <div class="progress m-b-20">
-                                    <div class="progress-bar l-green " role="progressbar" aria-valuenow="56" aria-valuemin="0" aria-valuemax="100" style="width: 56%"> <span class="sr-only">87% Complete</span> </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div>Local Knowledge</div>
-                                <div class="progress m-b-20">
-                                    <div class="progress-bar l-amber" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width: 78%"> <span class="sr-only">32% Complete</span> </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+    <!-- Page Loader -->
+    <div class="page-loader-wrapper">
+        <div class="loader">
+            <div class="m-t-30"><img class="zmdi-hc-spin"
+                    src="https://wrraptheme.com/templates/oreo/html/assets/images/logo.svg" width="48" height="48"
+                    alt="Oreo"></div>
+            <p>Please wait...</p>
         </div>
     </div>
-</aside>
+    <!-- Overlay For Sidebars -->
+    <div class="overlay"></div>
 
-<!-- Chat-launcher -->
-<div class="chat-launcher"></div>
-<div class="chat-wrapper">
-    <div class="card">
-        <div class="header">
-            <ul class="list-unstyled team-info margin-0">
-                <li class="m-r-15"><h2>Agent Team</h2></li>
-                <li><img src="https://thememakker.com/templates/oreo/realestate/html/assets/images/xs/avatar2.jpg" alt="Avatar"></li>
-                <li><img src="https://thememakker.com/templates/oreo/realestate/html/assets/images/xs/avatar3.jpg" alt="Avatar"></li>
-                <li><img src="https://thememakker.com/templates/oreo/realestate/html/assets/images/xs/avatar4.jpg" alt="Avatar"></li>
-                <li><img src="https://thememakker.com/templates/oreo/realestate/html/assets/images/xs/avatar6.jpg" alt="Avatar"></li>
-                <li><a href="javascript:void(0);" title="Add Member"><i class="zmdi zmdi-plus-circle"></i></a></li>
-            </ul>
+    <!-- Top Bar -->
+    <nav class="navbar p-l-5 p-r-5">
+        <ul class="nav navbar-nav navbar-left">
+            <li>
+                <div class="navbar-header">
+                    <a href="javascript:void(0);" class="bars"></a>
+                    <a class="navbar-brand" href="{%url 'hotels:list-hotels'%}"><img
+                            src="https://wrraptheme.com/templates/oreo/html/assets/images/logo.svg" width="30"
+                            alt="Oreo"><span class="m-l-10">Oreo</span></a>
+                </div>
+            </li>
+            <li><a href="javascript:void(0);" class="ls-toggle-btn" data-close="true"><i class="zmdi zmdi-swap"></i></a>
+            </li>
+            <li><a href="#" title="Contact List"><i class="zmdi zmdi-account-box-phone"></i></a></li>
+
+            <li class="float-right">
+                <a href="{% url 'authentication:login' %}" class="mega-menu" data-close="true"><i
+                        class="zmdi zmdi-power"></i></a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Left Sidebar -->
+    <aside id="leftsidebar" class="sidebar">
+        <ul class="nav nav-tabs">
+            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#dashboard"><i
+                        class="zmdi zmdi-home m-r-5"></i>Oreo</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#user"><i
+                        class="zmdi zmdi-account m-r-5"></i>User</a></li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane stretchRight active" id="dashboard">
+                <div class="menu">
+                    <ul class="list">
+                        <li>
+                            <div class="user-info">
+                                <div class="image"><a href="#"><img
+                                            src="https://res.cloudinary.com/dsw3onksq/image/upload/v1572770462/Screenshot_2019-11-03_at_08.46.55_c9lqgw.png"
+                                            alt="User"></a></div>
+                                <div class="detail">
+                                    <h4>Hesbon</h4>
+                                    <small>User</small>
+                                </div>
+                                <a title="facebook" href="javascript:void(0);"><i class="zmdi zmdi-facebook"></i></a>
+                                <a title="twitter" href="javascript:void(0);"><i class="zmdi zmdi-twitter"></i></a>
+                                <a title="instagram" href="javascript:void(0);"><i class="zmdi zmdi-instagram"></i></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tab-pane stretchLeft" id="user">
+                <div class="menu">
+                    <ul class="list">
+                        <li>
+                            <div class="user-info m-b-20 p-b-15">
+                                <div class="image"><a href="profile.html"><img
+                                            src="https://res.cloudinary.com/dsw3onksq/image/upload/v1572770462/Screenshot_2019-11-03_at_08.46.55_c9lqgw.png"
+                                            alt="User"></a></div>
+                                <div class="detail">
+                                    <h4>Hesbon</h4>
+                                    <small>User</small>
+                                </div>
+                                <a title="facebook" href="javascript:void(0);"><i class="zmdi zmdi-facebook"></i></a>
+                                <a title="twitter" href="javascript:void(0);"><i class="zmdi zmdi-twitter"></i></a>
+                                <a title="instagram" href="javascript:void(0);"><i class="zmdi zmdi-instagram"></i></a>
+                                <p class="text-muted">77, Home Street</p>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h6 class="mb-1">8</h6>
+                                        <small>Reviews</small>
+                                    </div>
+                                    <div class="col-4">
+                                        <h6 class="mb-1">7</h6>
+                                        <small>Likes</small>
+                                    </div>
+                                    <div class="col-4">
+                                        <h6 class="mb-1">13</h6>
+                                        <small>Bookings</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <small class="text-muted">Email address: </small>
+                            <p>Hesbon@gmail.com</p>
+                            <hr>
+                            <small class="text-muted">Phone: </small>
+                            <p>+ 254 727 737 299</p>
+                            <hr>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <div>Honesty & Integrity</div>
+                                    <div class="progress m-b-20">
+                                        <div class="progress-bar l-blue " role="progressbar" aria-valuenow="89"
+                                            aria-valuemin="0" aria-valuemax="100" style="width: 89%"> <span
+                                                class="sr-only">62% Complete</span> </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>Responsiveness</div>
+                                    <div class="progress m-b-20">
+                                        <div class="progress-bar l-green " role="progressbar" aria-valuenow="56"
+                                            aria-valuemin="0" aria-valuemax="100" style="width: 56%"> <span
+                                                class="sr-only">87% Complete</span> </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>Local Knowledge</div>
+                                    <div class="progress m-b-20">
+                                        <div class="progress-bar l-amber" role="progressbar" aria-valuenow="78"
+                                            aria-valuemin="0" aria-valuemax="100" style="width: 78%"> <span
+                                                class="sr-only">32% Complete</span> </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="body">
-            <div class="chat-widget">
-            <ul class="chat-scroll-list clearfix">
-                <li class="left float-left">
-                    <img src="https://thememakker.com/templates/oreo/realestate/html/assets/images/xs/avatar3.jpg" class="rounded-circle" alt="">
-                    <div class="chat-info">
-                        <a class="name" href="javascript:void(0);">Alexander</a>
-                        <span class="datetime">6:12</span>
-                        <span class="message">Hello, John </span>
+    </aside>
+
+    <!-- Chat-launcher -->
+    <div class="chat-launcher"></div>
+    <div class="chat-wrapper">
+        <div class="card">
+            <div class="header">
+                <ul class="list-unstyled team-info margin-0">
+                    <li class="m-r-15">
+                        <h2>Agent Team</h2>
+                    </li>
+                    <li><img src="https://thememakker.com/templates/oreo/realestate/html/assets/images/xs/avatar2.jpg"
+                            alt="Avatar"></li>
+                    <li><img src="https://thememakker.com/templates/oreo/realestate/html/assets/images/xs/avatar3.jpg"
+                            alt="Avatar"></li>
+                    <li><img src="https://thememakker.com/templates/oreo/realestate/html/assets/images/xs/avatar4.jpg"
+                            alt="Avatar"></li>
+                    <li><img src="https://thememakker.com/templates/oreo/realestate/html/assets/images/xs/avatar6.jpg"
+                            alt="Avatar"></li>
+                    <li><a href="javascript:void(0);" title="Add Member"><i class="zmdi zmdi-plus-circle"></i></a></li>
+                </ul>
+            </div>
+            <div class="body">
+                <div class="chat-widget">
+                    <ul class="chat-scroll-list clearfix">
+                        <li class="left float-left">
+                            <img src="https://thememakker.com/templates/oreo/realestate/html/assets/images/xs/avatar3.jpg"
+                                class="rounded-circle" alt="">
+                            <div class="chat-info">
+                                <a class="name" href="javascript:void(0);">Alexander</a>
+                                <span class="datetime">6:12</span>
+                                <span class="message">Hello, John </span>
+                            </div>
+                        </li>
+                        <li class="right">
+                            <div class="chat-info"><span class="datetime">6:15</span> <span class="message">Hi,
+                                    Alexander<br> How are you!</span> </div>
+                        </li>
+                        <li class="right">
+                            <div class="chat-info"><span class="datetime">6:16</span> <span class="message">There are
+                                    many variations of passages of Lorem Ipsum available</span> </div>
+                        </li>
+                        <li class="left float-left"> <img
+                                src="https://thememakker.com/templates/oreo/realestate/html/assets/images/xs/avatar2.jpg"
+                                class="rounded-circle" alt="">
+                            <div class="chat-info"> <a class="name" href="javascript:void(0);">Elizabeth</a> <span
+                                    class="datetime">6:25</span> <span class="message">Hi, Alexander,<br> John <br> What
+                                    are you doing?</span> </div>
+                        </li>
+                        <li class="left float-left"> <img
+                                src="https://thememakker.com/templates/oreo/realestate/html/assets/images/xs/avatar1.jpg"
+                                class="rounded-circle" alt="">
+                            <div class="chat-info"> <a class="name" href="javascript:void(0);">Hesbon</a> <span
+                                    class="datetime">6:28</span> <span class="message">I would love to join the
+                                    team.</span> </div>
+                        </li>
+                        <li class="right">
+                            <div class="chat-info"><span class="datetime">7:02</span> <span class="message">Hello,
+                                    <br>Hesbon</span> </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="input-group p-t-15">
+                    <input type="text" class="form-control" placeholder="Enter text here...">
+                    <span class="input-group-addon">
+                        <i class="zmdi zmdi-mail-send"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <section class="content">
+        <div class="block-header">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-sm-12">
+                    <h2>Hotels view
+                        <small>Welcome to Oreo</small>
+                    </h2>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-12 text-md-right">
+                    <div class="inlineblock text-center m-r-15 m-l-15 hidden-md-down">
+                        <div class="sparkline" data-type="bar" data-width="97%" data-height="25px" data-bar-Width="2"
+                            data-bar-Spacing="5" data-bar-Color="#fff">3,2,6,5,9,8,7,9,5,1,3,5,7,4,6</div>
+                        <small class="col-white">Visitors</small>
                     </div>
-                </li>
-                <li class="right">
-                    <div class="chat-info"><span class="datetime">6:15</span> <span class="message">Hi, Alexander<br> How are you!</span> </div>
-                </li>
-                <li class="right">
-                    <div class="chat-info"><span class="datetime">6:16</span> <span class="message">There are many variations of passages of Lorem Ipsum available</span> </div>
-                </li>
-                <li class="left float-left"> <img src="https://thememakker.com/templates/oreo/realestate/html/assets/images/xs/avatar2.jpg" class="rounded-circle" alt="">
-                    <div class="chat-info"> <a class="name" href="javascript:void(0);">Elizabeth</a> <span class="datetime">6:25</span> <span class="message">Hi, Alexander,<br> John <br> What are you doing?</span> </div>
-                </li>
-                <li class="left float-left"> <img src="https://thememakker.com/templates/oreo/realestate/html/assets/images/xs/avatar1.jpg" class="rounded-circle" alt="">
-                    <div class="chat-info"> <a class="name" href="javascript:void(0);">Hesbon</a> <span class="datetime">6:28</span> <span class="message">I would love to join the team.</span> </div>
-                </li>
-                    <li class="right">
-                    <div class="chat-info"><span class="datetime">7:02</span> <span class="message">Hello, <br>Hesbon</span> </div>
-                </li>
-            </ul>
-            </div>
-            <div class="input-group p-t-15">
-                <input type="text" class="form-control" placeholder="Enter text here...">
-                <span class="input-group-addon">
-                    <i class="zmdi zmdi-mail-send"></i>
-                </span>
+                    <div class="inlineblock text-center m-r-15 m-l-15 hidden-md-down">
+                        <div class="sparkline" data-type="bar" data-width="97%" data-height="25px" data-bar-Width="2"
+                            data-bar-Spacing="5" data-bar-Color="#fff">1,3,5,7,4,6,3,2,6,5,9,8,7,9,5</div>
+                        <small class="col-white">Bounce Rate</small>
+                    </div>
+                    <ul class="breadcrumb float-md-right">
+                        <li class="breadcrumb-item"><a href="#"><i class="zmdi zmdi-home"></i> Oreo</a></li>
+                        <li class="breadcrumb-item active">Hotels</li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-</div>
-
-<!-- Main Content -->
-<section class="content">
-    <div class="block-header">
-        <div class="row">
-            <div class="col-lg-5 col-md-5 col-sm-12">
-                <h2>Hotels view
-                <small>Welcome to Oreo</small>
-                </h2>
-            </div>
-            <div class="col-lg-7 col-md-7 col-sm-12 text-md-right">
-                <div class="inlineblock text-center m-r-15 m-l-15 hidden-md-down">
-                    <div class="sparkline" data-type="bar" data-width="97%" data-height="25px" data-bar-Width="2" data-bar-Spacing="5" data-bar-Color="#fff">3,2,6,5,9,8,7,9,5,1,3,5,7,4,6</div>
-                    <small class="col-white">Visitors</small>
-                </div>
-                <div class="inlineblock text-center m-r-15 m-l-15 hidden-md-down">
-                    <div class="sparkline" data-type="bar" data-width="97%" data-height="25px" data-bar-Width="2" data-bar-Spacing="5" data-bar-Color="#fff">1,3,5,7,4,6,3,2,6,5,9,8,7,9,5</div>
-                    <small class="col-white">Bounce Rate</small>
-                </div>
-                <ul class="breadcrumb float-md-right">
-                    <li class="breadcrumb-item"><a href="#"><i class="zmdi zmdi-home"></i> Oreo</a></li>
-                    <li class="breadcrumb-item active">Hotels</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row clearfix">
-            <div class="col-lg-12">
-                <div class="card action_bar">
-                    <div class="body">
-                        <form class="form-inline" method="POST" action="{%url 'hotels:hotel-recommendation' %}">
-                            {% csrf_token %}
-                            <label>What is your budget range <span class="text-info mx-1">  [Ksh]</span></label>
+        <div class="container-fluid">
+            <div class="row clearfix">
+                <div class="col-lg-12">
+                    <div class="card action_bar">
+                        <div class="body">
+                            <form class="form-inline" method="POST" action="{%url 'hotels:hotel-recommendation' %}">
+                                {% csrf_token %}
+                                <label>What is your budget range <span class="text-info mx-1"> [Ksh]</span></label>
                                 <div class="col-lg-3 col-md-6 w-100">
-                                    <div class="form-control text-center w-100">
-
-                                        <input id="range" type="text" style="width: 90%;" name="price_range"/>
-                                      </div>
+                                    <div class="form-control text-center w-100" style="width: 100%;">
+                                        <input id="range" type="text" style="width: 90%;" name="price_range" />
+                                    </div>
 
                                 </div>
 
                                 <label>Select your pferred location</label>
                                 <div class="col-lg-2 col-md-6 w-100">
-                                    <select class="form-control show-tick ms select2 w-100" data-placeholder="Select" aria-placeholder="text" name="locality">
+                                    <select class="form-control show-tick ms select2 w-100" data-placeholder="Select"
+                                        aria-placeholder="text" name="locality">
                                         {% for object in locality %}
-                                            <option value="{{object}}">{{object}}</option>
-                                            {% endfor %}
+                                        <option value="{{object}}">{{object}}</option>
+                                        {% endfor %}
                                     </select>
                                 </div>
-                            <button ttype="submit" name="submit" value="Submit" class="btn btn-primary mb-2">Get recommendation</button>
-                          </form>
+                                <button ttype="submit" name="submit" value="Submit" class="btn btn-primary mb-2">Get
+                                    recommendation</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
-            </div>
-            {%for hotel in hotels_list%}
-            <div class="col-lg-4 col-md-6">
-                <div class="card">
-                    <div class="body">
-                        <img class="img-thumbnail img-fluid w-100" src="{{hotel.thumbnail_url}}" alt="img">
-                        <p class="text-success mt-3"> Avg Price: <strong class="text-info">Ksh {{hotel.price | intcomma}} </strong> </p>
-                        <h5 class="mt-0"><a href="#" class="col-blue-grey">{{hotel.name}}</a></h5>
-                        <p class="text-muted">Our Hotel is primarily focused on providing accommodation to business travelers in Nairobi, Kenya to both local and foreign guests. After 40 Hotel has a modern and contemporary style </p>
-                        <div class="px-3 w-100 bg-danger px-3"><a href="{% url 'hotels:hotel-detail' hotel_id=hotel.id  %}" class="btn btn-info float-right">View more ...</a></div>
-                        <div>
-                            <small class="text-muted mx-2 w-100"><i class="zmdi zmdi-pin mr-2"></i>{{hotel.address.street_address}}, {%if hotel.extended_address%}{{hotel.extended_address}}, {%endif%} {{hotel.address.locality}}</small>
-                        </div>
+                {%for hotel in hotels_list%}
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="body">
+                            <img class="img-thumbnail img-fluid" src="{{hotel.thumbnail_url}}" alt="img"
+                                style="height: 25vh; width: 100%;">
+                            <p class="text-success mt-3"> Avg Price: <strong class="text-info">Ksh {{hotel.price |
+                                    intcomma}} </strong> </p>
+                            <h5 class="mt-0"><a href="#" class="col-blue-grey">{{hotel.name}}</a></h5>
+                            <p class="text-muted">Our Hotel is primarily focused on providing accommodation to business
+                                travelers in Nairobi, Kenya to both local and foreign guests. After 40 Hotel has a
+                                modern and contemporary style </p>
+                            <div class="px-3 w-100 bg-primary px-3"><a
+                                    href="{% url 'hotels:hotel-detail' hotel_id=hotel.id  %}"
+                                    class="btn btn-info float-right" target="_blank">View more ...</a></div>
+                            <div>
+                                <small class="text-muted mx-2 w-100"><i
+                                        class="zmdi zmdi-pin mr-2"></i>{{hotel.address.region}}, {%if
+                                    hotel.extended_address%}{{hotel.extended_address}}, {%endif%}
+                                    {{hotel.address.locality}}</small>
+                            </div>
                             <div class="d-flex justify-content-between mt-3 p-3 bg-light w-100">
                                 <a href="#" title="Square Feet" onclick="return false;">
                                     {% with ''|center:hotel.star_rating as star_range %}
                                     {% for i in star_range%}<i class="zmdi zmdi-star mr-1"></i>{%endfor%}{%endwith%}</a>
-                                <a href="#" title="Bedroom" onclick="return false;"><i class="zmdi zmdi-hotel mr-2"></i><span>{{hotel.total_reviews}}</span></a>
-                                <a href="#" title="Parking space" onclick="return false;"><i class="zmdi zmdi-car-taxi mr-2"></i><span>2</span></a>
-                                <a href="#" title="Garages" onclick="return false;"><i class="zmdi zmdi-home mr-2"></i><span> 24H</span></a>
+                                <a href="#" title="Bedroom" onclick="return false;"><i
+                                        class="zmdi zmdi-hotel mr-2"></i><span>{{hotel.total_reviews}}</span></a>
+                                <a href="#" title="Parking space" onclick="return false;"><i
+                                        class="zmdi zmdi-car-taxi mr-2"></i><span>2</span></a>
+                                <a href="#" title="Garages" onclick="return false;"><i
+                                        class="zmdi zmdi-home mr-2"></i><span> 24H</span></a>
                             </div>
+                        </div>
                     </div>
                 </div>
+                {%endfor%}
             </div>
-            {%endfor%}
-        </div>
-        {% if is_paginated %}
-        <div class="w-100 d-flex justify-content-center">
-        <ul class="pagination">
-            {% if page_obj.has_previous %}
-            <li><a href="?page=1" class="page-link mx-2">&laquo; FIRST </a></li>
-            <li><a href="?page={{ page_obj.previous_page_number }}" class="page-link mx-2">&laquo; PREV </a></li>
-            {% endif %}
-            <li>
-                <span class="current">
-                    Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
-                </span>
-            </li>
+            {% if is_paginated %}
+            <div class="w-100 d-flex justify-content-center">
+                <ul class="pagination">
+                    {% if page_obj.has_previous %}
+                    <li><a href="?page=1" class="page-link mx-2">&laquo; FIRST </a></li>
+                    <li><a href="?page={{ page_obj.previous_page_number }}" class="page-link mx-2">&laquo; PREV </a>
+                    </li>
+                    {% endif %}
+                    <li>
+                        <span class="current">
+                            Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+                        </span>
+                    </li>
 
-            {% if page_obj.has_next %}
-            <li><a href="?page={{ page_obj.next_page_number }}" class="page-link mx-2"> NEXT &raquo;</a></li>
-            <li><a href="?page={{ page_obj.paginator.num_pages }}" class="page-link mx-2"> LAST &raquo;</a></li>
-            {% endif %}
-        </ul>
-        </div>
+                    {% if page_obj.has_next %}
+                    <li><a href="?page={{ page_obj.next_page_number }}" class="page-link mx-2"> NEXT &raquo;</a></li>
+                    <li><a href="?page={{ page_obj.paginator.num_pages }}" class="page-link mx-2"> LAST &raquo;</a></li>
+                    {% endif %}
+                </ul>
+            </div>
         </div>
         {% endif %}
-    </div>
-</section>
+        </div>
+    </section>
 
-<!-- Jquery Core Js -->
-<script src="{% static 'assets/bundles/libscripts.bundle.js' %}"></script>
-<script src="{% static 'assets/bundles/vendorscripts.bundle.js' %}"></script>  <!-- Lib Scripts Plugin Js -->
-<script src="{% static 'assets/bundles/mainscripts.bundle.js' %}"></script>  <!-- Lib Scripts Plugin Js -->
+    <!-- Jquery Core Js -->
+    <script src="{% static 'assets/bundles/libscripts.bundle.js' %}"></script>
+    <script src="{% static 'assets/bundles/vendorscripts.bundle.js' %}"></script> <!-- Lib Scripts Plugin Js -->
+    <script src="{% static 'assets/bundles/mainscripts.bundle.js' %}"></script> Lib Scripts Plugin Js
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/bootstrap-slider.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/bootstrap-slider.min.js"></script>
 
-<script>
-    // With JQuery
-    var slider = new Slider("#range", {
-        min: 1000,
-        max: 90000,
-        value: [5000, 25000],
-        range: true,
-        tooltip: 'always'
-      });
-</script>
+    <script>
+        // With JQuery
+        var slider = new Slider("#range", {
+            min: 1000,
+            max: 90000,
+            value: [5000, 25000],
+            range: true,
+            tooltip: 'always'
+        });
+    </script>
 </body>
 
 <!-- Mirrored from thememakker.com/templates/oreo/realestate/html/light/property-list4.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 02 Mar 2020 07:34:46 GMT -->
+
 </html>
 {% endblock %}
