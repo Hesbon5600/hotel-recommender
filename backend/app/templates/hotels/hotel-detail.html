@@ -196,7 +196,7 @@
         <div class="col-md-12">
           <div class="card">
             <div class="body">
-              <div id="demo2" class="carousel slide" data-ride="carousel">
+              <!-- <div id="demo2" class="carousel slide" data-ride="carousel">
                 <ul class="carousel-indicators">
                   <li data-target="#demo2" data-slide-to="0" class="active"></li>
                 </ul>
@@ -209,47 +209,48 @@
                     </div>
                   </div>
                 </div>
-                <!-- Left and right controls -->
                 <a class="carousel-control-prev" href="#demo2" data-slide="prev"><span
                     class="carousel-control-prev-icon"></span></a>
                 <a class="carousel-control-next" href="#demo2" data-slide="next"><span
                     class="carousel-control-next-icon"></span></a>
-              </div>
+              </div> -->
+              <div class="row">
+                <div class="preview col-lg-4 col-md-12">
+                    <div class="preview-pic tab-content">
+                        <div class="tab-pane active"><img src="{{hotel.thumbnail_url}}" class="img-fluid" style="height: 35vh; width: 100%;"></div>
+                    </div>
+                </div>
+                <div class="details col-lg-8 col-md-12">
+                    <h3 class="product-title m-b-0">{{hotel.name}}</h3>
+                    <h4 class="price m-t-0">Current Price: <span class="col-amber">KES {{hotel.price | intcomma}}</span></h4>
+                    <div class="rating">
+                        <div class="stars">
+                            {% for _ in ratings %}
+                            <span class="zmdi zmdi-star col-amber"></span>
+                            {% endfor %}
+                            {% for _ in num_ratings %}
+                            <span class="zmdi zmdi-star-outline"></span>
+                            {% endfor %}
+                        </div>
+                        <span>{{hotel.total_reviews}} reviews</span>
+                    </div>
+                    <hr>
+                    <p class="product-description">
+                      Welcome to {{hotel.name}}, where modern comfort meets warm hospitality. Our elegantly designed rooms offer plush bedding, high-speed Wi-Fi, and stunning city or landscape views.
+                      Indulge in a delightful dining experience at our on-site restaurant, relax by the pool, or stay active in our fitness center.
+                      Conveniently located near major attractions and business hubs, our hotel ensures a seamless stay for both leisure and business travelers. With exceptional service and top-notch amenities,
+                      {{hotel.name}} provides a relaxing retreat for every guest. Experience comfort, convenience, and hospitality at its finest—welcome to your perfect getaway.
+                    </p>
 
-              <p class="text-success mt-3">
-                Avg Price:
-                <strong class="col-blue-grey">Ksh {{hotel.price | intcomma}}
-                </strong>
-              </p>
-              <h5 class="mt-0">
-                <a href="#" class="col-blue-grey">{{hotel.name}}</a>
-              </h5>
-              <p class="text-muted">
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters, as opposed to using 'Content
-                here, content here', making it look like readable English.
-                Many desktop publishing packages and web page editors now use
-                Lorem Ipsum as their default model text, and a search for
-                'lorem ipsum' will uncover many web sites still in their
-                infancy.
-              </p>
-              <small class="text-muted"><i class="zmdi zmdi-pin mr-2"></i>{{hotel.address.street_address}},
-                {%if hotel.extended_address %}
-                {{hotel.extended_address}},
-                {% endif %}
-                {{hotel.address.locality}}</small>
-              <div class="d-flex flex-wrap justify-content-start mt-3 p-3 bg-light">
+                    <hr>
+                    <div class="action">
+                        <button class="btn btn-primary btn-round waves-effect" type="button">
+                            <a href="https://www.google.com/travel/search?q={{hotel.name}}" target="_blank" style="color: white;">Book Now</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
 
-                <a href="#" title="Square Feet" onclick="return false;" class="mr-4">
-                  {% with ''|center:hotel.star_rating as star_range %}
-                  {% for i in star_range%}<i class="zmdi zmdi-star mr-1"></i>{%endfor%}{%endwith%}</a>
-                <a href="#" class="w100" title="Bedroom"><i
-                    class="zmdi zmdi-hotel mx-2"></i><span>{{hotel.total_reviews}}</span></a>
-                <a href="#" class="w100" title="Parking space"><i class="zmdi zmdi-car-taxi mr-2"></i><span>2</span></a>
-                <a href="#" class="w100" title="Garages"><i class="zmdi zmdi-home mr-2"></i><span> 24H</span></a>
-              </div>
             </div>
           </div>
           <div class="card">
@@ -319,7 +320,7 @@
             <div class="header">
               <h2>
                 <strong>Location of {{hotel.name}}</strong>
-                <small>{{hotel.address.street_address}},
+                <small>{{hotel.address.region}},
                   {%if hotel.extended_address %}
                   {{hotel.extended_address}},
                   {% endif %}

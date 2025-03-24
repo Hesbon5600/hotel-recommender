@@ -40,6 +40,13 @@ class Hotel(BaseModel):
                                 related_name="hotel_address", null=False)
     score = models.FloatField(max_length=10, null=True, blank=True)
 
+    @property
+    def rounded_rating(self):
+        """
+        Returns a rounded down rating
+        """
+        return (int(self.star_rating))
+
     def __str__(self):
         """
         Returns a string representation of this `User`.
